@@ -1,0 +1,7 @@
+.department_item:hover+.department_details {
+    display: block;
+}
+
+.department_details {
+    display: none;
+}

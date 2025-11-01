@@ -1,0 +1,7 @@
+node_modules
+dist
+dist.zip
+*.zip
+build
+.env
+.DS_Store
