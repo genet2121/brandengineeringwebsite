@@ -8,20 +8,21 @@ export default function TeamUp() {
     const teamMembers = [
         {
             id: 1,
-            name: "Sisay Baynesagne",
-            role: "Managing partner and Co-founder",
-            image: "/images/employees/sisay.png",
-            isCoFounder: true,
-            gridGroup: "row1",
-        },
-        {
-            id: 2,
             name: "Haymanot Baynesagne",
             role: "General Manager and Co-founder",
             image: "/images/employees/haymanot.png",
             isCoFounder: true,
             gridGroup: "row1",
         },
+        {
+            id: 2,
+            name: "Sisay Baynesagne",
+            role: "Managing partner and Co-founder",
+            image: "/images/employees/sisay.png",
+            isCoFounder: true,
+            gridGroup: "row1",
+        },
+       
         {
             id: 3,
             name: " Nuhamin Zablon ",
@@ -56,12 +57,13 @@ export default function TeamUp() {
         },
         {
             id: 7,
-            name: " Fitsum Seyfu ",
-            role: "Senior Electromechanical technician",
-            image: "/images/employees/fitsum.png",
+            name: " Martha Worku ",
+            role: "Junior Mechanical ",
+            image: "/images/employees/martha.png",
             isCoFounder: false,
             gridGroup: "row3",
         },
+     
         {
             id: 8,
             name: " Tilahun Lakew ",
@@ -72,17 +74,19 @@ export default function TeamUp() {
         },
         {
             id: 9,
-            name: " Ermiyas Dereje ",
-            role: "Senior Fire and plumber technician",
-            image: "/images/employees/ermiyas.png",
+            name: " Heaven Michael ",
+            role: "Junior Mechanical",
+            image: "/images/employees/heaven.png",
             isCoFounder: false,
             gridGroup: "row3",
         },
+       
+       
         {
             id: 10,
-            name: " Ermiyas Gebeyehu ",
-            role: "Senior Fire and plumber technician",
-            image: "/images/employees/ermiyasg.png",
+            name: " Eleni Haylemeskel ",
+            role: "Junior Electrical",
+            image: "/images/employees/eleni.png",
             isCoFounder: false,
             gridGroup: "row4",
         },
@@ -110,30 +114,36 @@ export default function TeamUp() {
             isCoFounder: false,
             gridGroup: "row4",
         },
+
         {
             id: 14,
-            name: " Martha Worku ",
-            role: "Junior Mechanical ",
-            image: "/images/employees/martha.png",
+            name: " Ermiyas Gebeyehu ",
+            role: "Senior Fire and plumber technician",
+            image: "/images/employees/ermiyasg.png",
             isCoFounder: false,
-            gridGroup: "row5",
+            gridGroup: "row4",
         },
         {
             id: 15,
-            name: " Eleni Haylemeskel ",
-            role: "Junior Electrical",
-            image: "/images/employees/eleni.png",
+            name: " Ermiyas Dereje ",
+            role: "Senior Fire and plumber technician",
+            image: "/images/employees/ermiyas.png",
             isCoFounder: false,
-            gridGroup: "row5",
+            gridGroup: "row4",
         },
+
         {
             id: 16,
-            name: " Heaven Michael ",
-            role: "Junior Mechanical",
-            image: "/images/employees/heaven.png",
+            name: " Fitsum Seyfu ",
+            role: "Senior Electromechanical technician",
+            image: "/images/employees/fitsum.png",
             isCoFounder: false,
-            gridGroup: "row5",
+            gridGroup: "row4",
         },
+        
+      
+       
+      
     ]
 
     return (
@@ -142,12 +152,12 @@ export default function TeamUp() {
             <h1 className="text-2xl md:text-3xl font-light text-center mb-16 text-gray-900">Co-Founders</h1>
 
             {/* Partners Grid */}
-            <div className="max-w-xl mx-auto">
+            <div className="max-w-4xl mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 ">
                     {teamMembers.filter((member: any) => member.isCoFounder).map((member: any) => (
                         <div
                             key={member.id}
-                            className="h-80 relative overflow-hidden transition-all duration-300 hover:shadow-2xl hover:scale-105 cursor-pointer"
+                            className="h-[475px] relative overflow-hidden transition-all duration-300 hover:shadow-2xl hover:scale-105 cursor-pointer"
                             onMouseEnter={() => setHoveredId(member.id)}
                             onMouseLeave={() => setHoveredId(null)}
                         >
@@ -165,14 +175,14 @@ export default function TeamUp() {
                                     <h2 className="font-semibold text-base leading-tight">{member.name}</h2>
                                     <p className="text-xs font-light">{member.role}</p>
                                 </div>
-                                <div className="flex gap-4">
+                                {/* <div className="flex gap-4">
                                     <button className="hover:opacity-80 transition-opacity">
                                         <Phone size={18} />
                                     </button>
                                     <button className="hover:opacity-80 transition-opacity">
                                         <Mail size={18} />
                                     </button>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     ))}
@@ -181,7 +191,7 @@ export default function TeamUp() {
             <h1 className="text-2xl md:text-3xl mt-20 font-light text-center mb-16 text-gray-900">Brand Engineering Teams</h1>
 
             {/* Partners Grid */}
-            <div className="max-w-3xl mx-auto mt-20">
+            <div className="max-w-4xl mx-auto mt-20">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {teamMembers.filter((member: any) => !member.isCoFounder && member.gridGroup === "row2").map((partner: any) => (
                         <div
@@ -204,14 +214,14 @@ export default function TeamUp() {
                                     <h2 className="font-semibold text-base leading-tight">{partner.name}</h2>
                                     <p className="text-xs font-light">{partner.role}</p>
                                 </div>
-                                <div className="flex gap-4">
+                                {/* <div className="flex gap-4">
                                     <button className="hover:opacity-80 transition-opacity">
                                         <Phone size={18} />
                                     </button>
                                     <button className="hover:opacity-80 transition-opacity">
                                         <Mail size={18} />
                                     </button>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     ))}
@@ -241,14 +251,14 @@ export default function TeamUp() {
                                     <h2 className="font-semibold text-base leading-tight">{partner.name}</h2>
                                     <p className="text-xs font-light">{partner.role}</p>
                                 </div>
-                                <div className="flex gap-4">
+                                {/* <div className="flex gap-4">
                                     <button className="hover:opacity-80 transition-opacity">
                                         <Phone size={18} />
                                     </button>
                                     <button className="hover:opacity-80 transition-opacity">
                                         <Mail size={18} />
                                     </button>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     ))}
@@ -277,14 +287,14 @@ export default function TeamUp() {
                                     <h2 className="font-semibold text-base leading-tight">{partner.name}</h2>
                                     <p className="text-xs font-light">{partner.role}</p>
                                 </div>
-                                <div className="flex gap-4">
+                                {/* <div className="flex gap-4">
                                     <button className="hover:opacity-80 transition-opacity">
                                         <Phone size={18} />
                                     </button>
                                     <button className="hover:opacity-80 transition-opacity">
                                         <Mail size={18} />
                                     </button>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     ))}
@@ -313,14 +323,14 @@ export default function TeamUp() {
                                     <h2 className="font-semibold text-base leading-tight">{partner.name}</h2>
                                     <p className="text-xs font-light">{partner.role}</p>
                                 </div>
-                                <div className="flex gap-4">
+                                {/* <div className="flex gap-4">
                                     <button className="hover:opacity-80 transition-opacity">
                                         <Phone size={18} />
                                     </button>
                                     <button className="hover:opacity-80 transition-opacity">
                                         <Mail size={18} />
                                     </button>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     ))}

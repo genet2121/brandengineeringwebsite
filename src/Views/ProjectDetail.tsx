@@ -34,146 +34,208 @@ function ProjectDetail() {
 
     const allProjects: ProjectData[] = [
         {
-            title: "Cure Ethiopia",
-            category: "Infrastructure",
-            location: "Addis Ababa",
-            year: "2024",
-            description: "Design and construction of a modern bridge system connecting key metropolitan areas, improving traffic flow and urban connectivity.",
-            image: "/images/projects/cure/cure1.jpg",
-            images: [
-                "/images/projects/cure/cure1.jpg",
-                "/images/projects/cure/cure2.jpg",
-              
-
-            ],
-            status: "Completed",
-            fullDescription: "This landmark infrastructure project involved the design and construction of a state-of-the-art bridge system spanning 2.5 kilometers across the metropolitan area. The project aimed to significantly reduce traffic congestion and improve connectivity between key business districts and residential areas.",
-            client: "Addis Ababa City Administration",
-            duration: "24 months",
-            budget: "$45 Million",
-            team: "150+ Engineers and Construction Workers",
-            challenges: "The project faced several challenges including working in a densely populated urban area, managing traffic flow during construction, and ensuring minimal disruption to daily activities. The geological conditions also required specialized foundation work.",
-            solutions: "We implemented a phased construction approach, utilizing advanced prefabrication techniques to minimize on-site work time. Night shifts were scheduled for critical operations, and temporary bypass routes were established. Our team employed cutting-edge foundation technology to address geological challenges.",
-            results: "The bridge was completed 2 months ahead of schedule, reducing commute times by 40% and improving traffic flow significantly. The project received recognition for its innovative construction methods and minimal environmental impact."
-        },
-    
-        {
-            title: "Ambassador Mall",
-            category: "Infrastructure",
-            location: "Addis Ababa",
-            year: "2024",
-            description: "Design and construction of a modern bridge system connecting key metropolitan areas, improving traffic flow and urban connectivity.",
-            image: "/images/projects/AmbassadorMall/3.png",
-            images: [
-                "/images/projects/AmbassadorMall/3.png",
-                "/images/projects/AmbassadorMall/2.jpg",
-                "/images/projects/AmbassadorMall/1.png",
-                
-            ],
-            status: "Completed",
-            fullDescription: "This landmark infrastructure project involved the design and construction of a state-of-the-art bridge system spanning 2.5 kilometers across the metropolitan area. The project aimed to significantly reduce traffic congestion and improve connectivity between key business districts and residential areas.",
-            client: "Addis Ababa City Administration",
-            duration: "24 months",
-            budget: "$45 Million",
-            team: "150+ Engineers and Construction Workers",
-            challenges: "The project faced several challenges including working in a densely populated urban area, managing traffic flow during construction, and ensuring minimal disruption to daily activities. The geological conditions also required specialized foundation work.",
-            solutions: "We implemented a phased construction approach, utilizing advanced prefabrication techniques to minimize on-site work time. Night shifts were scheduled for critical operations, and temporary bypass routes were established. Our team employed cutting-edge foundation technology to address geological challenges.",
-            results: "The bridge was completed 2 months ahead of schedule, reducing commute times by 40% and improving traffic flow significantly. The project received recognition for its innovative construction methods and minimal environmental impact."
-        },
-        {
-            title: "Defense Hosing Apartment",
-            category: "Energy",
-            location: "Hawassa",
-            year: "2023",
-            description: "Development of a sustainable power generation facility with advanced energy management systems and renewable integration.",
-            image: "/images/projects/defense/1.jpg",
-            images: [
-                "/images/projects/defense/1.jpg",
-                "/images/projects/defense/2.png",
-                "/images/projects/defense/3.png",
-
-            ],
-            status: "Completed",
-            fullDescription: "A comprehensive power generation facility designed to provide reliable electricity to the industrial zone while incorporating renewable energy sources. The plant features advanced energy management systems and smart grid technology.",
-            client: "Ethiopian Electric Power",
-            duration: "36 months",
-            budget: "$120 Million",
-            team: "200+ Specialists",
-            challenges: "Integration of renewable energy sources with traditional power generation, ensuring grid stability, and meeting strict environmental regulations.",
-            solutions: "Implemented hybrid power generation system with intelligent load balancing, installed advanced monitoring systems, and utilized eco-friendly technologies throughout the facility.",
-            results: "Successfully generating 150MW of power with 30% from renewable sources, serving over 500 industrial clients with 99.8% uptime reliability."
-        },
-        {
-           title: "Deloitte Ethiopia",
-            category: "Construction",
-            location: "Mekelle",
-            year: "2024",
-            description: "Large-scale mixed-use development featuring residential, commercial, and recreational spaces with modern amenities.",
-            image: "/images/projects/deloitte/1.jpg",
-            images: [
-                "/images/projects/deloitte/1.jpg",
-                "/images/projects/deloitte/2.jpg",
-                "/images/projects/deloitte/3.jpg",
-                "/images/projects/deloitte/4.jpg",
-                "/images/projects/deloitte/5.jpg",
-                "/images/projects/deloitte/6.jpg",
-                "/images/projects/deloitte/7.jpg",
-                "/images/projects/deloitte/8.jpg",
-                "/images/projects/deloitte/9.jpg",
-                "/images/projects/deloitte/10.jpg",
-                "/images/projects/deloitte/11.jpg",
-                "/images/projects/deloitte/16.jpg",
-                "/images/projects/deloitte/15.jpg",
-                "/images/projects/deloitte/14.jpg",
-                "/images/projects/deloitte/13.jpg",
-                "/images/projects/deloitte/12.jpg",
-                "/images/projects/deloitte/11.jpg",
-                "/images/projects/deloitte/10.jpg",
-                "/images/projects/deloitte/11.jpg",
-                "/images/projects/deloitte/12.jpg",
-                "/images/projects/deloitte/13.jpg",
-                "/images/projects/deloitte/14.jpg",
-                "/images/projects/deloitte/15.jpg",
-                "/images/projects/deloitte/16.jpg",
-                "/images/projects/deloitte/17.jpg",
-                "/images/projects/deloitte/18.jpg",
-                "/images/projects/deloitte/19.jpg",
-                "/images/projects/deloitte/20.jpg",
-                "/images/projects/deloitte/21.jpg",
-                "/images/projects/deloitte/22.jpg",
-                "/images/projects/deloitte/23.png",
-                "/images/projects/deloitte/24.png",
-                "/images/projects/deloitte/25.png",
-                "/images/projects/deloitte/26.png",
-                "/images/projects/deloitte/27.png",
-            ],
-            status: "In Progress",
-            fullDescription: "A transformative urban development project creating a modern mixed-use complex that combines residential towers, commercial spaces, recreational facilities, and green areas. The project emphasizes sustainable urban living and community integration.",
-            client: "Mekelle Urban Development Corporation",
-            duration: "48 months (Ongoing)",
-            budget: "$200 Million",
-            team: "300+ Construction and Design Professionals",
-            challenges: "Coordinating multiple construction phases, integrating diverse building types, ensuring sustainable design principles, and maintaining construction timeline.",
-            solutions: "Utilizing BIM technology for coordination, implementing green building standards, phased construction approach, and regular stakeholder engagement.",
-            results: "Phase 1 completed with 500 residential units occupied, commercial spaces 80% leased, and community facilities operational. Expected full completion in 2025."
-        },
-        {
-            title: "Dema Hope realestate",
+            title: "Ghana Embassy",
             category: "Infrastructure",
             location: "Bahir Dar",
             year: "2023",
             description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            image: "/images/projects/dema/1.jpg",
+            image: "/images/projects/GhanaEmbassy/1.jpg",
             images: [
-                "/images/projects/dema/1.jpg",
-                "/images/projects/dema/2.jpg",
-                "/images/projects/dema/3.jpg",
-                "/images/projects/dema/4.jpg",
-                "/images/projects/dema/5.jpg",
-                "/images/projects/dema/6.jpg",
+                "/images/projects/GhanaEmbassy/1.jpg",
+                "/images/projects/GhanaEmbassy/2.jpg",
+                "/images/projects/GhanaEmbassy/3.jpg",
+                "/images/projects/GhanaEmbassy/4.jpg",
+                "/images/projects/GhanaEmbassy/5.jpg",
+                "/images/projects/GhanaEmbassy/6.jpg",
+                "/images/projects/GhanaEmbassy/7.jpg",
+                "/images/projects/GhanaEmbassy/8.jpg",
+                "/images/projects/GhanaEmbassy/9.jpg",
+
+
+
             ],
             status: "Completed",
             fullDescription: "A comprehensive water treatment and distribution infrastructure project designed to provide clean, safe drinking water to over 500,000 residents. The facility incorporates advanced filtration technology and automated monitoring systems.",
+            client: "Bahir Dar Water Supply Authority",
+            duration: "30 months",
+            budget: "$85 Million",
+            team: "180+ Engineers and Technicians",
+            challenges: "Meeting WHO water quality standards, ensuring continuous operation during construction, and integrating with existing infrastructure.",
+            solutions: "Implemented multi-stage filtration system, installed redundant systems for reliability, and utilized smart monitoring technology for real-time quality control.",
+            results: "Facility now processes 200,000 cubic meters daily, achieving 99.9% water quality compliance, and reducing waterborne diseases by 75% in the service area."
+        },
+        {
+            title: "U.A.E  Embassy  ",
+            category: "Infrastructure",
+            location: "Bahir Dar",
+            year: "2023",
+            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
+            image: "/images/projects/U.A.EEmbassy/1.jpg",
+            images: [
+                "/images/projects/U.A.EEmbassy/1.jpg",
+                "/images/projects/U.A.EEmbassy/2.jpg",
+                "/images/projects/U.A.EEmbassy/3.jpg",
+                "/images/projects/U.A.EEmbassy/4.jpg",
+                "/images/projects/U.A.EEmbassy/5.jpg",
+                "/images/projects/U.A.EEmbassy/6.jpg",
+                "/images/projects/U.A.EEmbassy/7.jpg",
+                "/images/projects/U.A.EEmbassy/8.jpg",
+                "/images/projects/U.A.EEmbassy/9.jpg",
+                "/images/projects/U.A.EEmbassy/10.jpg",
+                "/images/projects/U.A.EEmbassy/11.jpg",
+                "/images/projects/U.A.EEmbassy/12.jpg",
+                "/images/projects/U.A.EEmbassy/13.jpg",
+                "/images/projects/U.A.EEmbassy/14.jpg",
+                "/images/projects/U.A.EEmbassy/15.jpg",
+                "/images/projects/U.A.EEmbassy/16.jpg",
+                "/images/projects/U.A.EEmbassy/17.jpg",
+                "/images/projects/U.A.EEmbassy/18.jpg",
+                "/images/projects/U.A.EEmbassy/19.jpg",
+
+
+            ],
+
+            status: "Completed",
+            fullDescription: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
+            client: "Bahir Dar Water Supply Authority",
+            duration: "30 months",
+            budget: "$85 Million",
+            team: "180+ Engineers and Technicians",
+            challenges: "Meeting WHO water quality standards, ensuring continuous operation during construction, and integrating with existing infrastructure.",
+            solutions: "Implemented multi-stage filtration system, installed redundant systems for reliability, and utilized smart monitoring technology for real-time quality control.",
+            results: "Facility now processes 200,000 cubic meters daily, achieving 99.9% water quality compliance, and reducing waterborne diseases by 75% in the service area."
+        },
+        {
+            title: "Libyan Embassy",
+            category: "Infrastructure",
+            location: "Bahir Dar",
+            year: "2023",
+            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
+            image: "/images/projects/LibyanEmbassy/1.jpg",
+            images: [
+                "/images/projects/LibyanEmbassy/1.jpg",
+                "/images/projects/LibyanEmbassy/2.jpg",
+                "/images/projects/LibyanEmbassy/3.jpg",
+                "/images/projects/LibyanEmbassy/4.jpg",
+
+            ],
+
+            status: "Completed",
+            fullDescription: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
+            client: "Bahir Dar Water Supply Authority",
+            duration: "30 months",
+            budget: "$85 Million",
+            team: "180+ Engineers and Technicians",
+            challenges: "Meeting WHO water quality standards, ensuring continuous operation during construction, and integrating with existing infrastructure.",
+            solutions: "Implemented multi-stage filtration system, installed redundant systems for reliability, and utilized smart monitoring technology for real-time quality control.",
+            results: "Facility now processes 200,000 cubic meters daily, achieving 99.9% water quality compliance, and reducing waterborne diseases by 75% in the service area."
+        },
+        {
+            title: "Mauritius Embassy ",
+            category: "Infrastructure",
+            location: "Bahir Dar",
+            year: "2023",
+            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
+            image: "/images/projects/MauritiusEmbassy /1.jpg",
+            images: [
+                "/images/projects/MauritiusEmbassy /1.jpg",
+                "/images/projects/MauritiusEmbassy /2.jpg",
+                "/images/projects/MauritiusEmbassy /3.jpg",
+                "/images/projects/MauritiusEmbassy /4.jpg",
+                "/images/projects/MauritiusEmbassy /5.jpg",
+                "/images/projects/MauritiusEmbassy /6.jpg",
+                "/images/projects/MauritiusEmbassy /7.jpg",
+                "/images/projects/MauritiusEmbassy /8.jpg",
+                "/images/projects/MauritiusEmbassy /9.jpg",
+
+            ],
+
+            status: "Completed",
+            fullDescription: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
+            client: "Bahir Dar Water Supply Authority",
+            duration: "30 months",
+            budget: "$85 Million",
+            team: "180+ Engineers and Technicians",
+            challenges: "Meeting WHO water quality standards, ensuring continuous operation during construction, and integrating with existing infrastructure.",
+            solutions: "Implemented multi-stage filtration system, installed redundant systems for reliability, and utilized smart monitoring technology for real-time quality control.",
+            results: "Facility now processes 200,000 cubic meters daily, achieving 99.9% water quality compliance, and reducing waterborne diseases by 75% in the service area."
+        },
+        {
+            title: "Kefita Apartment",
+            category: "Infrastructure",
+            location: "Bahir Dar",
+            year: "2023",
+            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
+            image: "/images/projects/KefitaApartment/1.jpg",
+            images: [
+                "/images/projects/KefitaApartment/1.jpg",
+                "/images/projects/KefitaApartment/2.jpg",
+                "/images/projects/KefitaApartment/3.jpg",
+                "/images/projects/KefitaApartment/4.jpg",
+                "/images/projects/KefitaApartment/5.jpg",
+                "/images/projects/KefitaApartment/6.jpg",
+                "/images/projects/KefitaApartment/7.jpg",
+                "/images/projects/KefitaApartment/8.jpg",
+                "/images/projects/KefitaApartment/9.jpg",
+
+
+
+            ],
+            status: "Completed",
+            fullDescription: "A comprehensive water treatment and distribution infrastructure project designed to provide clean, safe drinking water to over 500,000 residents. The facility incorporates advanced filtration technology and automated monitoring systems.",
+            client: "Bahir Dar Water Supply Authority",
+            duration: "30 months",
+            budget: "$85 Million",
+            team: "180+ Engineers and Technicians",
+            challenges: "Meeting WHO water quality standards, ensuring continuous operation during construction, and integrating with existing infrastructure.",
+            solutions: "Implemented multi-stage filtration system, installed redundant systems for reliability, and utilized smart monitoring technology for real-time quality control.",
+            results: "Facility now processes 200,000 cubic meters daily, achieving 99.9% water quality compliance, and reducing waterborne diseases by 75% in the service area."
+        },
+        {
+            title: "Roha Advanced Multi speciality Hospital  ",
+            category: "Infrastructure",
+            location: "Bahir Dar",
+            year: "2023",
+            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
+            image: "/images/projects/RohaAdvancedMultispecialityHospital/photo_2025-10-15_11-07-43.jpg",
+            images: [
+                "/images/projects/RohaAdvancedMultispecialityHospital/photo_2025-10-15_11-07-43.jpg",
+
+
+            ],
+
+            status: "Completed",
+            fullDescription: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
+            client: "Bahir Dar Water Supply Authority",
+            duration: "30 months",
+            budget: "$85 Million",
+            team: "180+ Engineers and Technicians",
+            challenges: "Meeting WHO water quality standards, ensuring continuous operation during construction, and integrating with existing infrastructure.",
+            solutions: "Implemented multi-stage filtration system, installed redundant systems for reliability, and utilized smart monitoring technology for real-time quality control.",
+            results: "Facility now processes 200,000 cubic meters daily, achieving 99.9% water quality compliance, and reducing waterborne diseases by 75% in the service area."
+        },
+
+        {
+            title: "SGDM office complex  ",
+            category: "Infrastructure",
+            location: "Bahir Dar",
+            year: "2023",
+            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
+            image: "/images/projects/SGDMofficecomplex/1.jpg",
+            images: [
+                "/images/projects/SGDMofficecomplex/1.jpg",
+                "/images/projects/SGDMofficecomplex/2.jpg",
+
+                "/images/projects/SGDMofficecomplex/3.jpg",
+                "/images/projects/SGDMofficecomplex/4.jpg",
+                "/images/projects/SGDMofficecomplex/5.jpg",
+                "/images/projects/SGDMofficecomplex/6.jpg",
+                "/images/projects/SGDMofficecomplex/7.jpg",
+
+            ],
+
+            status: "Completed",
+            fullDescription: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
             client: "Bahir Dar Water Supply Authority",
             duration: "30 months",
             budget: "$85 Million",
@@ -249,20 +311,40 @@ function ProjectDetail() {
             results: "Successfully generating 150MW of power with 30% from renewable sources, serving over 500 industrial clients with 99.8% uptime reliability."
         },
         {
-            title: "Ethiopian Steel Factory",
+            title: "La Gare Central Core",
             category: "Infrastructure",
             location: "Bahir Dar",
             year: "2023",
             description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            image: "/images/projects/EthiopianSteelFactory/photo_2025-10-14_14-01-19.jpg",
+            image: "/images/projects/LaGareCentralCore/65-Large.jpeg",
             images: [
-                "/images/projects/EthiopianSteelFactory/photo_2025-10-14_14-01-19.jpg",
-                "/images/projects/EthiopianSteelFactory/photo_2025-10-15_16-15-46.jpg",
-                "/images/projects/EthiopianSteelFactory/photo_2025-10-15_16-17-24.jpg",
- 
+                "/images/projects/LaGareCentralCore/Masterplan-1-Large-1.jpeg",
+                "/images/projects/LaGareCentralCore/1.jpg",
+                "/images/projects/LaGareCentralCore/2.jpg",
+                "/images/projects/LaGareCentralCore/3.jpg",
+                "/images/projects/LaGareCentralCore/4.jpg",
+                "/images/projects/LaGareCentralCore/5.jpg",
+                "/images/projects/LaGareCentralCore/6.jpg",
+                "/images/projects/LaGareCentralCore/7.jpg",
+
             ],
+            status: "Completed"
+        },
+
+        {
+            title: "La Gare Hotel",
+            category: "Infrastructure",
+            location: "Bahir Dar",
+            year: "2023",
+            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
+            image: "/images/projects/LaGareHotel/4.webp",
+            images: [
+                "/images/projects/LaGareHotel/4.webp",
+
+            ],
+
             status: "Completed",
-            fullDescription: "A comprehensive water treatment and distribution infrastructure project designed to provide clean, safe drinking water to over 500,000 residents. The facility incorporates advanced filtration technology and automated monitoring systems.",
+            fullDescription: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
             client: "Bahir Dar Water Supply Authority",
             duration: "30 months",
             budget: "$85 Million",
@@ -272,30 +354,61 @@ function ProjectDetail() {
             results: "Facility now processes 200,000 cubic meters daily, achieving 99.9% water quality compliance, and reducing waterborne diseases by 75% in the service area."
         },
         {
-            title: "Ethiopian Insurance Corporation",       
-            category: "Infrastructure",
-            location: "Bahir Dar",
-            year: "2023",
-            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            image: "/images/projects/EthiopianInsuranceCorporation/EIC_Auditorium_Opt02.png",
+            title: "Deloitte Ethiopia",
+            category: "Construction",
+            location: "Mekelle",
+            year: "2024",
+            description: "Large-scale mixed-use development featuring residential, commercial, and recreational spaces with modern amenities.",
+            image: "/images/projects/deloitte/1.jpg",
             images: [
-                "/images/projects/EthiopianInsuranceCorporation/EIC_Auditorium_Opt02.png",
-                "/images/projects/EthiopianInsuranceCorporation/EIC_Auditorium_Opt02B.png",
-             
- 
+                "/images/projects/deloitte/1.jpg",
+                "/images/projects/deloitte/2.jpg",
+                "/images/projects/deloitte/3.jpg",
+                "/images/projects/deloitte/4.jpg",
+                "/images/projects/deloitte/5.jpg",
+                "/images/projects/deloitte/6.jpg",
+                "/images/projects/deloitte/7.jpg",
+                "/images/projects/deloitte/8.jpg",
+                "/images/projects/deloitte/9.jpg",
+                "/images/projects/deloitte/10.jpg",
+                "/images/projects/deloitte/11.jpg",
+                "/images/projects/deloitte/16.jpg",
+                "/images/projects/deloitte/15.jpg",
+                "/images/projects/deloitte/14.jpg",
+                "/images/projects/deloitte/13.jpg",
+                "/images/projects/deloitte/12.jpg",
+                "/images/projects/deloitte/11.jpg",
+                "/images/projects/deloitte/10.jpg",
+                "/images/projects/deloitte/11.jpg",
+                "/images/projects/deloitte/12.jpg",
+                "/images/projects/deloitte/13.jpg",
+                "/images/projects/deloitte/14.jpg",
+                "/images/projects/deloitte/15.jpg",
+                "/images/projects/deloitte/16.jpg",
+                "/images/projects/deloitte/17.jpg",
+                "/images/projects/deloitte/18.jpg",
+                "/images/projects/deloitte/19.jpg",
+                "/images/projects/deloitte/20.jpg",
+                "/images/projects/deloitte/21.jpg",
+                "/images/projects/deloitte/22.jpg",
+                "/images/projects/deloitte/23.png",
+                "/images/projects/deloitte/24.png",
+                "/images/projects/deloitte/25.png",
+                "/images/projects/deloitte/26.png",
+                "/images/projects/deloitte/27.png",
             ],
-            status: "Completed",
-            fullDescription: "A comprehensive water treatment and distribution infrastructure project designed to provide clean, safe drinking water to over 500,000 residents. The facility incorporates advanced filtration technology and automated monitoring systems.",
-            client: "Bahir Dar Water Supply Authority",
-            duration: "30 months",
-            budget: "$85 Million",
-            team: "180+ Engineers and Technicians",
-            challenges: "Meeting WHO water quality standards, ensuring continuous operation during construction, and integrating with existing infrastructure.",
-            solutions: "Implemented multi-stage filtration system, installed redundant systems for reliability, and utilized smart monitoring technology for real-time quality control.",
-            results: "Facility now processes 200,000 cubic meters daily, achieving 99.9% water quality compliance, and reducing waterborne diseases by 75% in the service area."
+            status: "In Progress",
+            fullDescription: "A transformative urban development project creating a modern mixed-use complex that combines residential towers, commercial spaces, recreational facilities, and green areas. The project emphasizes sustainable urban living and community integration.",
+            client: "Mekelle Urban Development Corporation",
+            duration: "48 months (Ongoing)",
+            budget: "$200 Million",
+            team: "300+ Construction and Design Professionals",
+            challenges: "Coordinating multiple construction phases, integrating diverse building types, ensuring sustainable design principles, and maintaining construction timeline.",
+            solutions: "Utilizing BIM technology for coordination, implementing green building standards, phased construction approach, and regular stakeholder engagement.",
+            results: "Phase 1 completed with 500 residential units occupied, commercial spaces 80% leased, and community facilities operational. Expected full completion in 2025."
         },
         {
-            title: "Ethiotele Headquarter office",     
+            title: "Ethiotele Headquarter office",
             category: "Infrastructure",
             location: "Bahir Dar",
             year: "2023",
@@ -329,25 +442,19 @@ function ProjectDetail() {
             results: "Facility now processes 200,000 cubic meters daily, achieving 99.9% water quality compliance, and reducing waterborne diseases by 75% in the service area."
         },
         {
-            title: "Ghana Embassy",
+            title: "Dema Hope realestate",
             category: "Infrastructure",
             location: "Bahir Dar",
             year: "2023",
             description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            image: "/images/projects/GhanaEmbassy/1.jpg",
+            image: "/images/projects/dema/1.jpg",
             images: [
-                "/images/projects/GhanaEmbassy/1.jpg",
-                "/images/projects/GhanaEmbassy/2.jpg",
-                "/images/projects/GhanaEmbassy/3.jpg",
-                "/images/projects/GhanaEmbassy/4.jpg",
-                "/images/projects/GhanaEmbassy/5.jpg",
-                "/images/projects/GhanaEmbassy/6.jpg",
-                "/images/projects/GhanaEmbassy/7.jpg",
-                "/images/projects/GhanaEmbassy/8.jpg",
-                "/images/projects/GhanaEmbassy/9.jpg",
-
-
-
+                "/images/projects/dema/1.jpg",
+                "/images/projects/dema/2.jpg",
+                "/images/projects/dema/3.jpg",
+                "/images/projects/dema/4.jpg",
+                "/images/projects/dema/5.jpg",
+                "/images/projects/dema/6.jpg",
             ],
             status: "Completed",
             fullDescription: "A comprehensive water treatment and distribution infrastructure project designed to provide clean, safe drinking water to over 500,000 residents. The facility incorporates advanced filtration technology and automated monitoring systems.",
@@ -359,37 +466,7 @@ function ProjectDetail() {
             solutions: "Implemented multi-stage filtration system, installed redundant systems for reliability, and utilized smart monitoring technology for real-time quality control.",
             results: "Facility now processes 200,000 cubic meters daily, achieving 99.9% water quality compliance, and reducing waterborne diseases by 75% in the service area."
         },
-        {
-            title: "Kefita Apartment",
-            category: "Infrastructure",
-            location: "Bahir Dar",
-            year: "2023",
-            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            image: "/images/projects/KefitaApartment/1.jpg",
-            images: [
-                "/images/projects/KefitaApartment/1.jpg",
-                "/images/projects/KefitaApartment/2.jpg",
-                "/images/projects/KefitaApartment/3.jpg",
-                "/images/projects/KefitaApartment/4.jpg",
-                "/images/projects/KefitaApartment/5.jpg",   
-                "/images/projects/KefitaApartment/6.jpg",
-                "/images/projects/KefitaApartment/7.jpg",
-                "/images/projects/KefitaApartment/8.jpg",
-                "/images/projects/KefitaApartment/9.jpg",
 
-
-
-            ],
-            status: "Completed",
-            fullDescription: "A comprehensive water treatment and distribution infrastructure project designed to provide clean, safe drinking water to over 500,000 residents. The facility incorporates advanced filtration technology and automated monitoring systems.",
-            client: "Bahir Dar Water Supply Authority",
-            duration: "30 months",
-            budget: "$85 Million",
-            team: "180+ Engineers and Technicians",
-            challenges: "Meeting WHO water quality standards, ensuring continuous operation during construction, and integrating with existing infrastructure.",
-            solutions: "Implemented multi-stage filtration system, installed redundant systems for reliability, and utilized smart monitoring technology for real-time quality control.",
-            results: "Facility now processes 200,000 cubic meters daily, achieving 99.9% water quality compliance, and reducing waterborne diseases by 75% in the service area."
-        },
         {
             title: "Kirsmos Appartment",
             category: "Infrastructure",
@@ -426,38 +503,20 @@ function ProjectDetail() {
             results: "Facility now processes 200,000 cubic meters daily, achieving 99.9% water quality compliance, and reducing waterborne diseases by 75% in the service area."
         },
         {
-            title: "La Gare Central Core",
+            title: "Mulege Mixed Use Building ",
             category: "Infrastructure",
             location: "Bahir Dar",
             year: "2023",
             description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            image: "/images/projects/LaGareCentralCore/65-Large.jpeg",
-            images: [ 
-                "/images/projects/LaGareCentralCore/Masterplan-1-Large-1.jpeg",
-                "/images/projects/LaGareCentralCore/1.jpg",
-                "/images/projects/LaGareCentralCore/2.jpg",
-                "/images/projects/LaGareCentralCore/3.jpg",
-                "/images/projects/LaGareCentralCore/4.jpg",
-                "/images/projects/LaGareCentralCore/5.jpg",
-                "/images/projects/LaGareCentralCore/6.jpg",
-                "/images/projects/LaGareCentralCore/7.jpg",
-
-              ],
-            status: "Completed"
-        },
-      
-        {
-            title: "La Gare Hotel",
-            category: "Infrastructure",
-            location: "Bahir Dar",
-            year: "2023",
-            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            image: "/images/projects/LaGareHotel/4.webp",
+            image: "/images/projects/MulegeMixedUseBuilding /1.png",
             images: [
-                "/images/projects/LaGareHotel/4.webp",
+                "/images/projects/MulegeMixedUseBuilding /1.png",
+                "/images/projects/MulegeMixedUseBuilding /2.png",
+                "/images/projects/MulegeMixedUseBuilding /3.png",
+
 
             ],
-            
+
             status: "Completed",
             fullDescription: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
             client: "Bahir Dar Water Supply Authority",
@@ -469,22 +528,20 @@ function ProjectDetail() {
             results: "Facility now processes 200,000 cubic meters daily, achieving 99.9% water quality compliance, and reducing waterborne diseases by 75% in the service area."
         },
         {
-            title: "Libyan Embassy",
+            title: "Ethiopian Steel Factory",
             category: "Infrastructure",
             location: "Bahir Dar",
             year: "2023",
             description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            image: "/images/projects/LibyanEmbassy/1.jpg",
+            image: "/images/projects/EthiopianSteelFactory/photo_2025-10-14_14-01-19.jpg",
             images: [
-                "/images/projects/LibyanEmbassy/1.jpg",
-                "/images/projects/LibyanEmbassy/2.jpg",
-                "/images/projects/LibyanEmbassy/3.jpg",
-                "/images/projects/LibyanEmbassy/4.jpg",
+                "/images/projects/EthiopianSteelFactory/photo_2025-10-14_14-01-19.jpg",
+                "/images/projects/EthiopianSteelFactory/photo_2025-10-15_16-15-46.jpg",
+                "/images/projects/EthiopianSteelFactory/photo_2025-10-15_16-17-24.jpg",
 
             ],
-            
             status: "Completed",
-            fullDescription: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
+            fullDescription: "A comprehensive water treatment and distribution infrastructure project designed to provide clean, safe drinking water to over 500,000 residents. The facility incorporates advanced filtration technology and automated monitoring systems.",
             client: "Bahir Dar Water Supply Authority",
             duration: "30 months",
             budget: "$85 Million",
@@ -494,35 +551,29 @@ function ProjectDetail() {
             results: "Facility now processes 200,000 cubic meters daily, achieving 99.9% water quality compliance, and reducing waterborne diseases by 75% in the service area."
         },
         {
-            title: "Mauritius Embassy ",
+            title: "Ambassador Mall",
             category: "Infrastructure",
-            location: "Bahir Dar",
-            year: "2023",
-            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            image: "/images/projects/MauritiusEmbassy /1.jpg",
+            location: "Addis Ababa",
+            year: "2024",
+            description: "Design and construction of a modern bridge system connecting key metropolitan areas, improving traffic flow and urban connectivity.",
+            image: "/images/projects/AmbassadorMall/3.png",
             images: [
-                "/images/projects/MauritiusEmbassy /1.jpg",
-                "/images/projects/MauritiusEmbassy /2.jpg",
-                "/images/projects/MauritiusEmbassy /3.jpg",
-                "/images/projects/MauritiusEmbassy /4.jpg",
-                "/images/projects/MauritiusEmbassy /5.jpg",
-                "/images/projects/MauritiusEmbassy /6.jpg",
-                "/images/projects/MauritiusEmbassy /7.jpg",
-                "/images/projects/MauritiusEmbassy /8.jpg",
-                "/images/projects/MauritiusEmbassy /9.jpg",
+                "/images/projects/AmbassadorMall/3.png",
+                "/images/projects/AmbassadorMall/2.jpg",
+                "/images/projects/AmbassadorMall/1.png",
 
             ],
-            
             status: "Completed",
-            fullDescription: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            client: "Bahir Dar Water Supply Authority",
-            duration: "30 months",
-            budget: "$85 Million",
-            team: "180+ Engineers and Technicians",
-            challenges: "Meeting WHO water quality standards, ensuring continuous operation during construction, and integrating with existing infrastructure.",
-            solutions: "Implemented multi-stage filtration system, installed redundant systems for reliability, and utilized smart monitoring technology for real-time quality control.",
-            results: "Facility now processes 200,000 cubic meters daily, achieving 99.9% water quality compliance, and reducing waterborne diseases by 75% in the service area."
+            fullDescription: "This landmark infrastructure project involved the design and construction of a state-of-the-art bridge system spanning 2.5 kilometers across the metropolitan area. The project aimed to significantly reduce traffic congestion and improve connectivity between key business districts and residential areas.",
+            client: "Addis Ababa City Administration",
+            duration: "24 months",
+            budget: "$45 Million",
+            team: "150+ Engineers and Construction Workers",
+            challenges: "The project faced several challenges including working in a densely populated urban area, managing traffic flow during construction, and ensuring minimal disruption to daily activities. The geological conditions also required specialized foundation work.",
+            solutions: "We implemented a phased construction approach, utilizing advanced prefabrication techniques to minimize on-site work time. Night shifts were scheduled for critical operations, and temporary bypass routes were established. Our team employed cutting-edge foundation technology to address geological challenges.",
+            results: "The bridge was completed 2 months ahead of schedule, reducing commute times by 40% and improving traffic flow significantly. The project received recognition for its innovative construction methods and minimal environmental impact."
         },
+
         {
             title: "Minister of Defense ",
             category: "Infrastructure",
@@ -537,7 +588,7 @@ function ProjectDetail() {
 
 
             ],
-            
+
             status: "Completed",
             fullDescription: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
             client: "Bahir Dar Water Supply Authority",
@@ -548,23 +599,47 @@ function ProjectDetail() {
             solutions: "Implemented multi-stage filtration system, installed redundant systems for reliability, and utilized smart monitoring technology for real-time quality control.",
             results: "Facility now processes 200,000 cubic meters daily, achieving 99.9% water quality compliance, and reducing waterborne diseases by 75% in the service area."
         },
+
         {
-            title: "Mulege Mixed Use Building ",
+            title: "Defense Hosing Apartment",
+            category: "Energy",
+            location: "Hawassa",
+            year: "2023",
+            description: "Development of a sustainable power generation facility with advanced energy management systems and renewable integration.",
+            image: "/images/projects/defense/1.jpg",
+            images: [
+                "/images/projects/defense/1.jpg",
+                "/images/projects/defense/2.png",
+                "/images/projects/defense/3.png",
+
+            ],
+            status: "Completed",
+            fullDescription: "A comprehensive power generation facility designed to provide reliable electricity to the industrial zone while incorporating renewable energy sources. The plant features advanced energy management systems and smart grid technology.",
+            client: "Ethiopian Electric Power",
+            duration: "36 months",
+            budget: "$120 Million",
+            team: "200+ Specialists",
+            challenges: "Integration of renewable energy sources with traditional power generation, ensuring grid stability, and meeting strict environmental regulations.",
+            solutions: "Implemented hybrid power generation system with intelligent load balancing, installed advanced monitoring systems, and utilized eco-friendly technologies throughout the facility.",
+            results: "Successfully generating 150MW of power with 30% from renewable sources, serving over 500 industrial clients with 99.8% uptime reliability."
+        },
+
+
+        {
+            title: "Ethiopian Insurance Corporation",
             category: "Infrastructure",
             location: "Bahir Dar",
             year: "2023",
             description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            image: "/images/projects/MulegeMixedUseBuilding /1.png",
+            image: "/images/projects/EthiopianInsuranceCorporation/EIC_Auditorium_Opt02.png",
             images: [
-                "/images/projects/MulegeMixedUseBuilding /1.png",
-                "/images/projects/MulegeMixedUseBuilding /2.png",
-                "/images/projects/MulegeMixedUseBuilding /3.png",
+                "/images/projects/EthiopianInsuranceCorporation/EIC_Auditorium_Opt02.png",
+                "/images/projects/EthiopianInsuranceCorporation/EIC_Auditorium_Opt02B.png",
 
 
             ],
-            
             status: "Completed",
-            fullDescription: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
+            fullDescription: "A comprehensive water treatment and distribution infrastructure project designed to provide clean, safe drinking water to over 500,000 residents. The facility incorporates advanced filtration technology and automated monitoring systems.",
             client: "Bahir Dar Water Supply Authority",
             duration: "30 months",
             budget: "$85 Million",
@@ -573,101 +648,47 @@ function ProjectDetail() {
             solutions: "Implemented multi-stage filtration system, installed redundant systems for reliability, and utilized smart monitoring technology for real-time quality control.",
             results: "Facility now processes 200,000 cubic meters daily, achieving 99.9% water quality compliance, and reducing waterborne diseases by 75% in the service area."
         },
+
+
         {
-            title: "Roha Advanced Multi speciality Hospital  ",
+            title: "Cure Ethiopia",
             category: "Infrastructure",
-            location: "Bahir Dar",
-            year: "2023",
-            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            image: "/images/projects/RohaAdvancedMultispecialityHospital/photo_2025-10-15_11-07-43.jpg",
+            location: "Addis Ababa",
+            year: "2024",
+            description: "Design and construction of a modern bridge system connecting key metropolitan areas, improving traffic flow and urban connectivity.",
+            image: "/images/projects/cure/cure1.jpg",
             images: [
-                "/images/projects/RohaAdvancedMultispecialityHospital/photo_2025-10-15_11-07-43.jpg",
+                "/images/projects/cure/cure1.jpg",
+                "/images/projects/cure/cure2.jpg",
 
 
             ],
-            
             status: "Completed",
-            fullDescription: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            client: "Bahir Dar Water Supply Authority",
-            duration: "30 months",
-            budget: "$85 Million",
-            team: "180+ Engineers and Technicians",
-            challenges: "Meeting WHO water quality standards, ensuring continuous operation during construction, and integrating with existing infrastructure.",
-            solutions: "Implemented multi-stage filtration system, installed redundant systems for reliability, and utilized smart monitoring technology for real-time quality control.",
-            results: "Facility now processes 200,000 cubic meters daily, achieving 99.9% water quality compliance, and reducing waterborne diseases by 75% in the service area."
+            fullDescription: "This landmark infrastructure project involved the design and construction of a state-of-the-art bridge system spanning 2.5 kilometers across the metropolitan area. The project aimed to significantly reduce traffic congestion and improve connectivity between key business districts and residential areas.",
+            client: "Addis Ababa City Administration",
+            duration: "24 months",
+            budget: "$45 Million",
+            team: "150+ Engineers and Construction Workers",
+            challenges: "The project faced several challenges including working in a densely populated urban area, managing traffic flow during construction, and ensuring minimal disruption to daily activities. The geological conditions also required specialized foundation work.",
+            solutions: "We implemented a phased construction approach, utilizing advanced prefabrication techniques to minimize on-site work time. Night shifts were scheduled for critical operations, and temporary bypass routes were established. Our team employed cutting-edge foundation technology to address geological challenges.",
+            results: "The bridge was completed 2 months ahead of schedule, reducing commute times by 40% and improving traffic flow significantly. The project received recognition for its innovative construction methods and minimal environmental impact."
         },
-        {
-            title: "SGDM office complex  ",
-            category: "Infrastructure",
-            location: "Bahir Dar",
-            year: "2023",
-            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            image: "/images/projects/SGDMofficecomplex/1.jpg",
-            images: [
-                "/images/projects/SGDMofficecomplex/1.jpg",
-                "/images/projects/SGDMofficecomplex/2.jpg",
-
-                "/images/projects/SGDMofficecomplex/3.jpg",
-                "/images/projects/SGDMofficecomplex/4.jpg",
-                "/images/projects/SGDMofficecomplex/5.jpg",
-                "/images/projects/SGDMofficecomplex/6.jpg",
-                "/images/projects/SGDMofficecomplex/7.jpg",
-
-            ],
-            
-            status: "Completed",
-            fullDescription: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            client: "Bahir Dar Water Supply Authority",
-            duration: "30 months",
-            budget: "$85 Million",
-            team: "180+ Engineers and Technicians",
-            challenges: "Meeting WHO water quality standards, ensuring continuous operation during construction, and integrating with existing infrastructure.",
-            solutions: "Implemented multi-stage filtration system, installed redundant systems for reliability, and utilized smart monitoring technology for real-time quality control.",
-            results: "Facility now processes 200,000 cubic meters daily, achieving 99.9% water quality compliance, and reducing waterborne diseases by 75% in the service area."
-        },
-        {
-            title: "U.A.E  Embassy  ",
-            category: "Infrastructure",
-            location: "Bahir Dar",
-            year: "2023",
-            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            image: "/images/projects/U.A.EEmbassy/1.jpg",
-            images: [
-                "/images/projects/U.A.EEmbassy/1.jpg",
-                "/images/projects/U.A.EEmbassy/2.jpg",
-                "/images/projects/U.A.EEmbassy/3.jpg",
-                "/images/projects/U.A.EEmbassy/4.jpg",
-                "/images/projects/U.A.EEmbassy/5.jpg",
-                "/images/projects/U.A.EEmbassy/6.jpg",
-                "/images/projects/U.A.EEmbassy/7.jpg",
-                "/images/projects/U.A.EEmbassy/8.jpg",
-                "/images/projects/U.A.EEmbassy/9.jpg",
-                "/images/projects/U.A.EEmbassy/10.jpg",
-                "/images/projects/U.A.EEmbassy/11.jpg",
-                "/images/projects/U.A.EEmbassy/12.jpg",
-                "/images/projects/U.A.EEmbassy/13.jpg",
-                "/images/projects/U.A.EEmbassy/14.jpg",
-                "/images/projects/U.A.EEmbassy/15.jpg",
-                "/images/projects/U.A.EEmbassy/16.jpg",
-                "/images/projects/U.A.EEmbassy/17.jpg",
-                "/images/projects/U.A.EEmbassy/18.jpg",
-                "/images/projects/U.A.EEmbassy/19.jpg",
 
 
-            ],
-            
-            status: "Completed",
-            fullDescription: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            client: "Bahir Dar Water Supply Authority",
-            duration: "30 months",
-            budget: "$85 Million",
-            team: "180+ Engineers and Technicians",
-            challenges: "Meeting WHO water quality standards, ensuring continuous operation during construction, and integrating with existing infrastructure.",
-            solutions: "Implemented multi-stage filtration system, installed redundant systems for reliability, and utilized smart monitoring technology for real-time quality control.",
-            results: "Facility now processes 200,000 cubic meters daily, achieving 99.9% water quality compliance, and reducing waterborne diseases by 75% in the service area."
-        }
 
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
     ];
 
     useEffect(() => {
@@ -851,8 +872,8 @@ function ProjectDetail() {
                                                 key={index}
                                                 onClick={() => handleThumbnailClick(index)}
                                                 className={`transition-all duration-300 rounded-full ${selectedImageIndex === index
-                                                        ? 'w-8 h-2 bg-white'
-                                                        : 'w-2 h-2 bg-white/50 hover:bg-white/75'
+                                                    ? 'w-8 h-2 bg-white'
+                                                    : 'w-2 h-2 bg-white/50 hover:bg-white/75'
                                                     }`}
                                                 aria-label={`Go to image ${index + 1}`}
                                             />
@@ -900,7 +921,7 @@ function ProjectDetail() {
                 </div> */}
 
                 {/* Project Details Grid */}
-              /
+                /
 
                 {/* Challenges */}
                 {/* <div className="mb-12">

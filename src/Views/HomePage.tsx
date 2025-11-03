@@ -109,45 +109,102 @@ const companies = [
         name: "",
         image: "/images/Client_logos/9.png"
     },
+    {
+        name: "",
+        image: "/images/Client_logos/a.png"
+    },
+    {
+        name: "",
+        image: "/images/Client_logos/b.png"
+    },
+    {
+        name: "",
+        image: "/images/Client_logos/c.png"
+    },
+    {
+        name: "",
+        image: "/images/Client_logos/d.png"
+    },
+    {
+        name: "",
+        image: "/images/Client_logos/e.png"
+    },
+    {
+        name: "",
+        image: "/images/Client_logos/f.png"
+    },
+    {
+        name: "",
+        image: "/images/Client_logos/g.png"
+    },
+    {
+        name: "",
+        image: "/images/Client_logos/h.png"
+    },
+
 
 ];
 
 const slides = [
     {
-        image: "/images/HeroSection/Projectlast.png",
+        image: "/images/HeroSection/1.png",
         title: "Brand Engineering ",
+        title2: "MEP One-Stop Solution",
         description:
-            "MEP One-Stop Solution",
+            "Kefita Appartment",
     },
     {
-        image: "/images/HeroSection/Project5.png",
+        image: "/images/HeroSection/2.png",
         title: "Brand Engineering ",
+        title2: "MEP One-Stop Solution",
         description:
-            "Kefita Apartment",
+            "Kirsmos Appartment",
     },
     {
-        image: "/images/HeroSection/Project7-1.png",
+        image: "/images/HeroSection/3.png",
         title: "Brand Engineering ",
+        title2: "MEP One-Stop Solution",
         description:
             "SGDM office complex",
     },
     {
-        image: "/images/HeroSection/Project8.png",
+        image: "/images/HeroSection/4.png",
         title: "Brand Engineering ",
+        title2: "MEP One-Stop Solution",
+        description:
+            "Ethio Telecom Headquarter",
+    },
+
+    {
+        image: "/images/HeroSection/5.png",
+        title: "Brand Engineering ",
+        title2: "MEP One-Stop Solution",
         description:
             "Elevation Residence",
     },
+
     {
-        image: "/images/HeroSection/Project9.png",
+        image: "/images/HeroSection/6.png",
         title: "Brand Engineering ",
+        title2: "MEP One-Stop Solution",
         description:
             "La Gare Central Core",
     },
+
     {
-        image: "/images/HeroSection/Project13.png",
+        image: "/images/HeroSection/7.png",
         title: "Brand Engineering ",
+        title2: "MEP One-Stop Solution",
         description:
-            "Dema Hope realestate",
+            "Dema Hope Realstate",
+    },
+
+    {
+        image: "/images/HeroSection/8.png",
+        title: "Brand Engineering ",
+        title2: "MEP One-Stop Solution",
+        description:
+            "Cure Ethiopia",
     },
    
 ];
@@ -249,9 +306,15 @@ function HomePage() {
                 <div className="flex flex-col items-center text-center transition-opacity duration-700 ease-in-out">
                     <p
                         key={currentSlide.title}
-                        className="text-white mt-4 font-bold text-xl home_slide_up transition-opacity duration-700 delay-100 mb-10"
+                        className="text-white mt-4 font-bold text-xl home_slide_up transition-opacity duration-700 delay-100 mb-2"
                     >
                         {currentSlide.title}
+                    </p>
+                    <p
+                        key={currentSlide.title2}
+                        className="text-[#FFD800] mt-4 font-bold text-xl home_slide_up transition-opacity duration-700 delay-100 mb-10"
+                    >
+                        {currentSlide.title2}
                     </p>
                     <h1
                         key={currentSlide.description.toUpperCase()}

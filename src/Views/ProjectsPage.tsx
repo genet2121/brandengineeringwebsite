@@ -84,110 +84,152 @@ function ProjectsPage() {
 
     const projects = [
         {
-            title: "Cure Ethiopia",
-            category: "Infrastructure",
-            location: "Addis Ababa",
-            year: "2024",
-            description: "Design and construction of a modern bridge system connecting key metropolitan areas, improving traffic flow and urban connectivity.",
-            image: "/images/projects/cure/cure1.jpg",
-            images: [
-                "/images/projects/cure/cure1.jpg",
-                "/images/projects/cure/cure2.jpg",
-
-
-            ],
-            status: "Completed"
-        },
-        {
-            title: "Ambassador Mall",
-            category: "Infrastructure",
-            location: "Addis Ababa",
-            year: "2024",
-            description: "Design and construction of a modern bridge system connecting key metropolitan areas, improving traffic flow and urban connectivity.",
-            image: "/images/projects/AmbassadorMall/3.png",
-            images: [
-                "/images/projects/AmbassadorMall/3.png",
-                "/images/projects/AmbassadorMall/2.jpg",
-                "/images/projects/AmbassadorMall/1.png",
-
-            ],
-            status: "Completed"
-        },
-        {
-            title: "Defense Hosing Apartment",
-            category: "Energy",
-            location: "Hawassa",
-            year: "2023",
-            description: "Development of a sustainable power generation facility with advanced energy management systems and renewable integration.",
-            image: "/images/projects/defense/1.jpg",
-            images: [
-                "/images/projects/defense/1.jpg",
-                "/images/projects/defense/2.png",
-                "/images/projects/defense/3.png",
-
-            ],
-            status: "Completed"
-        },
-        {
-            title: "Deloitte Ethiopia",
-            category: "Construction",
-            location: "Mekelle",
-            year: "2024",
-            description: "Large-scale mixed-use development featuring residential, commercial, and recreational spaces with modern amenities.",
-            image: "/images/projects/deloitte/27.png",
-            images: [
-                "/images/projects/deloitte/1.jpg",
-                "/images/projects/deloitte/2.jpg",
-                "/images/projects/deloitte/3.jpg",
-                "/images/projects/deloitte/4.jpg",
-                "/images/projects/deloitte/5.jpg",
-                "/images/projects/deloitte/6.jpg",
-                "/images/projects/deloitte/7.jpg",
-                "/images/projects/deloitte/8.jpg",
-                "/images/projects/deloitte/9.jpg",
-                "/images/projects/deloitte/10.jpg",
-                "/images/projects/deloitte/11.jpg",
-                "/images/projects/deloitte/16.jpg",
-                "/images/projects/deloitte/15.jpg",
-                "/images/projects/deloitte/14.jpg",
-                "/images/projects/deloitte/13.jpg",
-                "/images/projects/deloitte/12.jpg",
-                "/images/projects/deloitte/11.jpg",
-                "/images/projects/deloitte/10.jpg",
-                "/images/projects/deloitte/11.jpg",
-                "/images/projects/deloitte/12.jpg",
-                "/images/projects/deloitte/13.jpg",
-                "/images/projects/deloitte/14.jpg",
-                "/images/projects/deloitte/15.jpg",
-                "/images/projects/deloitte/16.jpg",
-                "/images/projects/deloitte/17.jpg",
-                "/images/projects/deloitte/18.jpg",
-                "/images/projects/deloitte/19.jpg",
-                "/images/projects/deloitte/20.jpg",
-                "/images/projects/deloitte/21.jpg",
-                "/images/projects/deloitte/22.jpg",
-                "/images/projects/deloitte/23.png",
-                "/images/projects/deloitte/24.png",
-                "/images/projects/deloitte/25.png",
-                "/images/projects/deloitte/26.png",
-                "/images/projects/deloitte/27.png",
-            ],
-            status: "Completed"
-        },
-        {
-            title: "Dema Hope realestate",
+            title: "Ghana Embassy",
             category: "Infrastructure",
             location: "Bahir Dar",
             year: "2023",
             description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            image: "/images/projects/dema/6.jpg",
+            image: "/images/projects/GhanaEmbassy/1.jpg",
             images: [
-                "/images/projects/dema/1.jpg",
-                "/images/projects/dema/2.jpg",
-                "/images/projects/dema/3.jpg",
-                "/images/projects/dema/4.jpg",
-                "/images/projects/dema/5.jpg",
-                "/images/projects/dema/6.jpg",
+                "/images/projects/GhanaEmbassy/1.jpg",
+                "/images/projects/GhanaEmbassy/2.jpg",
+                "/images/projects/GhanaEmbassy/3.jpg",
+                "/images/projects/GhanaEmbassy/4.jpg",
+                "/images/projects/GhanaEmbassy/5.jpg",
+                "/images/projects/GhanaEmbassy/6.jpg",
+                "/images/projects/GhanaEmbassy/7.jpg",
+                "/images/projects/GhanaEmbassy/8.jpg",
+                "/images/projects/GhanaEmbassy/9.jpg",
+
+
+
+            ],
+            status: "Completed"
+        },
+        {
+            title: "U.A.E  Embassy  ",
+            category: "Infrastructure",
+            location: "Bahir Dar",
+            year: "2023",
+            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
+            image: "/images/projects/U.A.EEmbassy/1.jpg",
+            images: [
+                "/images/projects/U.A.EEmbassy/1.jpg",
+                "/images/projects/U.A.EEmbassy/2.jpg",
+                "/images/projects/U.A.EEmbassy/3.jpg",
+                "/images/projects/U.A.EEmbassy/4.jpg",
+                "/images/projects/U.A.EEmbassy/5.jpg",
+                "/images/projects/U.A.EEmbassy/6.jpg",
+                "/images/projects/U.A.EEmbassy/7.jpg",
+                "/images/projects/U.A.EEmbassy/8.jpg",
+                "/images/projects/U.A.EEmbassy/9.jpg",
+                "/images/projects/U.A.EEmbassy/10.jpg",
+                "/images/projects/U.A.EEmbassy/11.jpg",
+                "/images/projects/U.A.EEmbassy/12.jpg",
+                "/images/projects/U.A.EEmbassy/13.jpg",
+                "/images/projects/U.A.EEmbassy/14.jpg",
+                "/images/projects/U.A.EEmbassy/15.jpg",
+                "/images/projects/U.A.EEmbassy/16.jpg",
+                "/images/projects/U.A.EEmbassy/17.jpg",
+                "/images/projects/U.A.EEmbassy/18.jpg",
+                "/images/projects/U.A.EEmbassy/19.jpg",
+
+
+            ],
+            status: "Completed"
+        },
+        {
+            title: "Libyan Embassy",
+            category: "Infrastructure",
+            location: "Bahir Dar",
+            year: "2023",
+            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
+            image: "/images/projects/LibyanEmbassy/1.jpg",
+            images: [
+                "/images/projects/LibyanEmbassy/1.jpg",
+                "/images/projects/LibyanEmbassy/2.jpg",
+                "/images/projects/LibyanEmbassy/3.jpg",
+                "/images/projects/LibyanEmbassy/4.jpg",
+
+            ],
+            status: "Completed"
+        },
+        {
+            title: "Mauritius Embassy ",
+            category: "Infrastructure",
+            location: "Bahir Dar",
+            year: "2023",
+            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
+            image: "/images/projects/MauritiusEmbassy /1.jpg",
+            images: [
+                "/images/projects/MauritiusEmbassy /1.jpg",
+                "/images/projects/MauritiusEmbassy /2.jpg",
+                "/images/projects/MauritiusEmbassy /3.jpg",
+                "/images/projects/MauritiusEmbassy /4.jpg",
+                "/images/projects/MauritiusEmbassy /5.jpg",
+                "/images/projects/MauritiusEmbassy /6.jpg",
+                "/images/projects/MauritiusEmbassy /7.jpg",
+                "/images/projects/MauritiusEmbassy /8.jpg",
+                "/images/projects/MauritiusEmbassy /9.jpg",
+
+            ],
+            status: "Completed"
+        },
+        {
+            title: "Kefita Apartment",
+            category: "Infrastructure",
+            location: "Bahir Dar",
+            year: "2023",
+            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
+            image: "/images/projects/KefitaApartment/1.jpg",
+            images: [
+                "/images/projects/KefitaApartment/1.jpg",
+                "/images/projects/KefitaApartment/2.jpg",
+                "/images/projects/KefitaApartment/3.jpg",
+                "/images/projects/KefitaApartment/4.jpg",
+                "/images/projects/KefitaApartment/5.jpg",
+                "/images/projects/KefitaApartment/6.jpg",
+                "/images/projects/KefitaApartment/7.jpg",
+                "/images/projects/KefitaApartment/8.jpg",
+                "/images/projects/KefitaApartment/9.jpg",
+
+
+
+            ],
+            status: "Completed"
+        },
+
+        {
+            title: "Roha Advanced Multi speciality Hospital  ",
+            category: "Infrastructure",
+            location: "Bahir Dar",
+            year: "2023",
+            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
+            image: "/images/projects/RohaAdvancedMultispecialityHospital/photo_2025-10-15_11-07-43.jpg",
+            images: [
+                "/images/projects/RohaAdvancedMultispecialityHospital/photo_2025-10-15_11-07-43.jpg",
+
+
+            ],
+            status: "Completed"
+        },
+        {
+            title: "SGDM office complex  ",
+            category: "Infrastructure",
+            location: "Bahir Dar",
+            year: "2023",
+            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
+            image: "/images/projects/SGDMofficecomplex/1.jpg",
+            images: [
+                "/images/projects/SGDMofficecomplex/1.jpg",
+                "/images/projects/SGDMofficecomplex/2.jpg",
+
+                "/images/projects/SGDMofficecomplex/3.jpg",
+                "/images/projects/SGDMofficecomplex/4.jpg",
+                "/images/projects/SGDMofficecomplex/5.jpg",
+                "/images/projects/SGDMofficecomplex/6.jpg",
+                "/images/projects/SGDMofficecomplex/7.jpg",
+
             ],
             status: "Completed"
         },
@@ -250,135 +292,6 @@ function ProjectsPage() {
             status: "Completed"
         },
         {
-            title: "Ethiopian Steel Factory",
-            category: "Energy",
-            location: "Hawassa",
-            year: "2023",
-            description: "Development of a sustainable power generation facility with advanced energy management systems and renewable integration.",
-            image: "/images/projects/EthiopianSteelFactory/photo_2025-10-14_14-01-19.jpg",
-            images: [
-                "/images/projects/EthiopianSteelFactory/photo_2025-10-14_14-01-19.jpg",
-                "/images/projects/EthiopianSteelFactory/photo_2025-10-15_16-15-46.jpg",
-                "/images/projects/EthiopianSteelFactory/photo_2025-10-15_16-17-24.jpg",
-
-            ],
-            status: "Completed"
-        },
-        {
-            title: "Ethiopian Insurance Corporation",
-            category: "Energy",
-            location: "Hawassa",
-            year: "2023",
-            description: "Development of a sustainable power generation facility with advanced energy management systems and renewable integration.",
-            image: "/images/projects/EthiopianInsuranceCorporation/EIC_Auditorium_Opt02.png",
-            images: [
-                "/images/projects/EthiopianInsuranceCorporation/EIC_Auditorium_Opt02.png",
-                "/images/projects/EthiopianInsuranceCorporation/EIC_Auditorium_Opt02B.png",
-
-
-            ],
-            status: "Completed"
-        },
-        {
-            title: "Ethiotele Headquarter office",
-            category: "Construction",
-            location: "Mekelle",
-            year: "2024",
-            description: "Large-scale mixed-use development featuring residential, commercial, and recreational spaces with modern amenities.",
-            image: "/images/projects/EthioteleHeadquarteroffice/photo_2025-10-14_14-53-16.jpg",
-            images: [
-                "/images/projects/EthioteleHeadquarteroffice/photo_2025-10-14_14-53-16.jpg",
-                "/images/projects/EthioteleHeadquarteroffice/photo_2025-10-14_14-53-17.jpg",
-                "/images/projects/EthioteleHeadquarteroffice/photo_2025-10-14_14-55-15.jpg",
-                "/images/projects/EthioteleHeadquarteroffice/photo_2025-10-14_15-15-20.jpg",
-                "/images/projects/EthioteleHeadquarteroffice/photo_2025-10-14_15-16-58.jpg",
-                "/images/projects/EthioteleHeadquarteroffice/photo_2025-10-14_15-56-32.jpg",
-                "/images/projects/EthioteleHeadquarteroffice/1.jpg",
-                "/images/projects/EthioteleHeadquarteroffice/2.jpg",
-                "/images/projects/EthioteleHeadquarteroffice/3.jpg",
-                "/images/projects/EthioteleHeadquarteroffice/4.jpg",
-                "/images/projects/EthioteleHeadquarteroffice/5.jpg",
-                "/images/projects/EthioteleHeadquarteroffice/6.jpg",
-                "/images/projects/EthioteleHeadquarteroffice/7.jpg",
-
-
-            ],
-            status: "Completed"
-        },
-        {
-            title: "Ghana Embassy",
-            category: "Infrastructure",
-            location: "Bahir Dar",
-            year: "2023",
-            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            image: "/images/projects/GhanaEmbassy/1.jpg",
-            images: [
-                "/images/projects/GhanaEmbassy/1.jpg",
-                "/images/projects/GhanaEmbassy/2.jpg",
-                "/images/projects/GhanaEmbassy/3.jpg",
-                "/images/projects/GhanaEmbassy/4.jpg",
-                "/images/projects/GhanaEmbassy/5.jpg",
-                "/images/projects/GhanaEmbassy/6.jpg",
-                "/images/projects/GhanaEmbassy/7.jpg",
-                "/images/projects/GhanaEmbassy/8.jpg",
-                "/images/projects/GhanaEmbassy/9.jpg",
-
-
-
-            ],
-            status: "Completed"
-        },
-        {
-            title: "Kefita Apartment",
-            category: "Infrastructure",
-            location: "Bahir Dar",
-            year: "2023",
-            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            image: "/images/projects/KefitaApartment/1.jpg",
-            images: [
-                "/images/projects/KefitaApartment/1.jpg",
-                "/images/projects/KefitaApartment/2.jpg",
-                "/images/projects/KefitaApartment/3.jpg",
-                "/images/projects/KefitaApartment/4.jpg",
-                "/images/projects/KefitaApartment/5.jpg",
-                "/images/projects/KefitaApartment/6.jpg",
-                "/images/projects/KefitaApartment/7.jpg",
-                "/images/projects/KefitaApartment/8.jpg",
-                "/images/projects/KefitaApartment/9.jpg",
-
-
-
-            ],
-            status: "Completed"
-        },
-        {
-            title: "Kirsmos Appartment",
-            category: "Infrastructure",
-            location: "Bahir Dar",
-            year: "2023",
-            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            image: "/images/projects/KirsmosAppartment/1.jpg",
-            images: [
-                "/images/projects/KirsmosAppartment/1.jpg",
-                "/images/projects/KirsmosAppartment/2.jpg",
-                "/images/projects/KirsmosAppartment/3.jpg",
-                "/images/projects/KirsmosAppartment/4.jpg",
-                "/images/projects/KirsmosAppartment/5.jpg",
-                "/images/projects/KirsmosAppartment/6.jpg",
-                "/images/projects/KirsmosAppartment/7.jpg",
-                "/images/projects/KirsmosAppartment/8.jpg",
-                "/images/projects/KirsmosAppartment/9.jpg",
-                "/images/projects/KirsmosAppartment/10.jpg",
-                "/images/projects/KirsmosAppartment/11.jpg",
-                "/images/projects/KirsmosAppartment/12.jpg",
-                "/images/projects/KirsmosAppartment/13.jpg",
-                "/images/projects/KirsmosAppartment/14.jpg",
-                "/images/projects/KirsmosAppartment/15.jpg",
-
-            ],
-            status: "Completed"
-        },
-        {
             title: "La Gare Central Core",
             category: "Infrastructure",
             location: "Bahir Dar",
@@ -412,38 +325,164 @@ function ProjectsPage() {
             status: "Completed"
         },
         {
-            title: "Libyan Embassy",
-            category: "Infrastructure",
-            location: "Bahir Dar",
-            year: "2023",
-            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            image: "/images/projects/LibyanEmbassy/1.jpg",
+            title: "Deloitte Ethiopia",
+            category: "Construction",
+            location: "Mekelle",
+            year: "2024",
+            description: "Large-scale mixed-use development featuring residential, commercial, and recreational spaces with modern amenities.",
+            image: "/images/projects/deloitte/27.png",
             images: [
-                "/images/projects/LibyanEmbassy/1.jpg",
-                "/images/projects/LibyanEmbassy/2.jpg",
-                "/images/projects/LibyanEmbassy/3.jpg",
-                "/images/projects/LibyanEmbassy/4.jpg",
+                "/images/projects/deloitte/1.jpg",
+                "/images/projects/deloitte/2.jpg",
+                "/images/projects/deloitte/3.jpg",
+                "/images/projects/deloitte/4.jpg",
+                "/images/projects/deloitte/5.jpg",
+                "/images/projects/deloitte/6.jpg",
+                "/images/projects/deloitte/7.jpg",
+                "/images/projects/deloitte/8.jpg",
+                "/images/projects/deloitte/9.jpg",
+                "/images/projects/deloitte/10.jpg",
+                "/images/projects/deloitte/11.jpg",
+                "/images/projects/deloitte/16.jpg",
+                "/images/projects/deloitte/15.jpg",
+                "/images/projects/deloitte/14.jpg",
+                "/images/projects/deloitte/13.jpg",
+                "/images/projects/deloitte/12.jpg",
+                "/images/projects/deloitte/11.jpg",
+                "/images/projects/deloitte/10.jpg",
+                "/images/projects/deloitte/11.jpg",
+                "/images/projects/deloitte/12.jpg",
+                "/images/projects/deloitte/13.jpg",
+                "/images/projects/deloitte/14.jpg",
+                "/images/projects/deloitte/15.jpg",
+                "/images/projects/deloitte/16.jpg",
+                "/images/projects/deloitte/17.jpg",
+                "/images/projects/deloitte/18.jpg",
+                "/images/projects/deloitte/19.jpg",
+                "/images/projects/deloitte/20.jpg",
+                "/images/projects/deloitte/21.jpg",
+                "/images/projects/deloitte/22.jpg",
+                "/images/projects/deloitte/23.png",
+                "/images/projects/deloitte/24.png",
+                "/images/projects/deloitte/25.png",
+                "/images/projects/deloitte/26.png",
+                "/images/projects/deloitte/27.png",
+            ],
+            status: "Completed"
+        },
+        {
+            title: "Ethiotele Headquarter office",
+            category: "Construction",
+            location: "Mekelle",
+            year: "2024",
+            description: "Large-scale mixed-use development featuring residential, commercial, and recreational spaces with modern amenities.",
+            image: "/images/projects/EthioteleHeadquarteroffice/photo_2025-10-14_14-53-16.jpg",
+            images: [
+                "/images/projects/EthioteleHeadquarteroffice/photo_2025-10-14_14-53-16.jpg",
+                "/images/projects/EthioteleHeadquarteroffice/photo_2025-10-14_14-53-17.jpg",
+                "/images/projects/EthioteleHeadquarteroffice/photo_2025-10-14_14-55-15.jpg",
+                "/images/projects/EthioteleHeadquarteroffice/photo_2025-10-14_15-15-20.jpg",
+                "/images/projects/EthioteleHeadquarteroffice/photo_2025-10-14_15-16-58.jpg",
+                "/images/projects/EthioteleHeadquarteroffice/photo_2025-10-14_15-56-32.jpg",
+                "/images/projects/EthioteleHeadquarteroffice/1.jpg",
+                "/images/projects/EthioteleHeadquarteroffice/2.jpg",
+                "/images/projects/EthioteleHeadquarteroffice/3.jpg",
+                "/images/projects/EthioteleHeadquarteroffice/4.jpg",
+                "/images/projects/EthioteleHeadquarteroffice/5.jpg",
+                "/images/projects/EthioteleHeadquarteroffice/6.jpg",
+                "/images/projects/EthioteleHeadquarteroffice/7.jpg",
+
 
             ],
             status: "Completed"
         },
         {
-            title: "Mauritius Embassy ",
+            title: "Dema Hope realestate",
             category: "Infrastructure",
             location: "Bahir Dar",
             year: "2023",
             description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            image: "/images/projects/MauritiusEmbassy /1.jpg",
+            image: "/images/projects/dema/6.jpg",
             images: [
-                "/images/projects/MauritiusEmbassy /1.jpg",
-                "/images/projects/MauritiusEmbassy /2.jpg",
-                "/images/projects/MauritiusEmbassy /3.jpg",
-                "/images/projects/MauritiusEmbassy /4.jpg",
-                "/images/projects/MauritiusEmbassy /5.jpg",
-                "/images/projects/MauritiusEmbassy /6.jpg",
-                "/images/projects/MauritiusEmbassy /7.jpg",
-                "/images/projects/MauritiusEmbassy /8.jpg",
-                "/images/projects/MauritiusEmbassy /9.jpg",
+                "/images/projects/dema/1.jpg",
+                "/images/projects/dema/2.jpg",
+                "/images/projects/dema/3.jpg",
+                "/images/projects/dema/4.jpg",
+                "/images/projects/dema/5.jpg",
+                "/images/projects/dema/6.jpg",
+            ],
+            status: "Completed"
+        },
+        {
+            title: "Kirsmos Appartment",
+            category: "Infrastructure",
+            location: "Bahir Dar",
+            year: "2023",
+            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
+            image: "/images/projects/KirsmosAppartment/1.jpg",
+            images: [
+                "/images/projects/KirsmosAppartment/1.jpg",
+                "/images/projects/KirsmosAppartment/2.jpg",
+                "/images/projects/KirsmosAppartment/3.jpg",
+                "/images/projects/KirsmosAppartment/4.jpg",
+                "/images/projects/KirsmosAppartment/5.jpg",
+                "/images/projects/KirsmosAppartment/6.jpg",
+                "/images/projects/KirsmosAppartment/7.jpg",
+                "/images/projects/KirsmosAppartment/8.jpg",
+                "/images/projects/KirsmosAppartment/9.jpg",
+                "/images/projects/KirsmosAppartment/10.jpg",
+                "/images/projects/KirsmosAppartment/11.jpg",
+                "/images/projects/KirsmosAppartment/12.jpg",
+                "/images/projects/KirsmosAppartment/13.jpg",
+                "/images/projects/KirsmosAppartment/14.jpg",
+                "/images/projects/KirsmosAppartment/15.jpg",
+
+            ],
+            status: "Completed"
+        },
+        {
+            title: "Mulege Mixed Use Building  ",
+            category: "Infrastructure",
+            location: "Bahir Dar",
+            year: "2023",
+            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
+            image: "/images/projects/MulegeMixedUseBuilding /1.png",
+            images: [
+                "/images/projects/MulegeMixedUseBuilding /1.png",
+                "/images/projects/MulegeMixedUseBuilding /2.png",
+                "/images/projects/MulegeMixedUseBuilding /3.png",
+
+
+            ],
+            status: "Completed"
+        },
+
+        {
+            title: "Ethiopian Steel Factory",
+            category: "Energy",
+            location: "Hawassa",
+            year: "2023",
+            description: "Development of a sustainable power generation facility with advanced energy management systems and renewable integration.",
+            image: "/images/projects/EthiopianSteelFactory/photo_2025-10-14_14-01-19.jpg",
+            images: [
+                "/images/projects/EthiopianSteelFactory/photo_2025-10-14_14-01-19.jpg",
+                "/images/projects/EthiopianSteelFactory/photo_2025-10-15_16-15-46.jpg",
+                "/images/projects/EthiopianSteelFactory/photo_2025-10-15_16-17-24.jpg",
+
+            ],
+            status: "Completed"
+        },
+        {
+            title: "Ambassador Mall",
+            category: "Infrastructure",
+            location: "Addis Ababa",
+            year: "2024",
+            description: "Design and construction of a modern bridge system connecting key metropolitan areas, improving traffic flow and urban connectivity.",
+            image: "/images/projects/AmbassadorMall/3.png",
+            images: [
+                "/images/projects/AmbassadorMall/3.png",
+                "/images/projects/AmbassadorMall/2.jpg",
+                "/images/projects/AmbassadorMall/1.png",
 
             ],
             status: "Completed"
@@ -465,87 +504,80 @@ function ProjectsPage() {
             status: "Completed"
         },
         {
-            title: "Mulege Mixed Use Building  ",
-            category: "Infrastructure",
-            location: "Bahir Dar",
+            title: "Defense Hosing Apartment",
+            category: "Energy",
+            location: "Hawassa",
             year: "2023",
-            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            image: "/images/projects/MulegeMixedUseBuilding /1.png",
+            description: "Development of a sustainable power generation facility with advanced energy management systems and renewable integration.",
+            image: "/images/projects/defense/1.jpg",
             images: [
-                "/images/projects/MulegeMixedUseBuilding /1.png",
-                "/images/projects/MulegeMixedUseBuilding /2.png",
-                "/images/projects/MulegeMixedUseBuilding /3.png",
-
+                "/images/projects/defense/1.jpg",
+                "/images/projects/defense/2.png",
+                "/images/projects/defense/3.png",
 
             ],
             status: "Completed"
         },
+
         {
-            title: "Roha Advanced Multi speciality Hospital  ",
-            category: "Infrastructure",
-            location: "Bahir Dar",
+            title: "Defense Hosing Apartment",
+            category: "Energy",
+            location: "Hawassa",
             year: "2023",
-            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            image: "/images/projects/RohaAdvancedMultispecialityHospital/photo_2025-10-15_11-07-43.jpg",
+            description: "Development of a sustainable power generation facility with advanced energy management systems and renewable integration.",
+            image: "/images/projects/defense/1.jpg",
             images: [
-                "/images/projects/RohaAdvancedMultispecialityHospital/photo_2025-10-15_11-07-43.jpg",
-
+                "/images/projects/defense/1.jpg",
+                "/images/projects/defense/2.png",
+                "/images/projects/defense/3.png",
 
             ],
-            status: "Completed"
+            status: "Completed",
+            fullDescription: "A comprehensive power generation facility designed to provide reliable electricity to the industrial zone while incorporating renewable energy sources. The plant features advanced energy management systems and smart grid technology.",
+            client: "Ethiopian Electric Power",
+            duration: "36 months",
+            budget: "$120 Million",
+            team: "200+ Specialists",
+            challenges: "Integration of renewable energy sources with traditional power generation, ensuring grid stability, and meeting strict environmental regulations.",
+            solutions: "Implemented hybrid power generation system with intelligent load balancing, installed advanced monitoring systems, and utilized eco-friendly technologies throughout the facility.",
+            results: "Successfully generating 150MW of power with 30% from renewable sources, serving over 500 industrial clients with 99.8% uptime reliability."
         },
+
         {
-            title: "SGDM office complex  ",
-            category: "Infrastructure",
-            location: "Bahir Dar",
+            title: "Ethiopian Insurance Corporation",
+            category: "Energy",
+            location: "Hawassa",
             year: "2023",
-            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            image: "/images/projects/SGDMofficecomplex/1.jpg",
+            description: "Development of a sustainable power generation facility with advanced energy management systems and renewable integration.",
+            image: "/images/projects/EthiopianInsuranceCorporation/EIC_Auditorium_Opt02.png",
             images: [
-                "/images/projects/SGDMofficecomplex/1.jpg",
-                "/images/projects/SGDMofficecomplex/2.jpg",
+                "/images/projects/EthiopianInsuranceCorporation/EIC_Auditorium_Opt02.png",
+                "/images/projects/EthiopianInsuranceCorporation/EIC_Auditorium_Opt02B.png",
 
-                "/images/projects/SGDMofficecomplex/3.jpg",
-                "/images/projects/SGDMofficecomplex/4.jpg",
-                "/images/projects/SGDMofficecomplex/5.jpg",
-                "/images/projects/SGDMofficecomplex/6.jpg",
-                "/images/projects/SGDMofficecomplex/7.jpg",
 
             ],
             status: "Completed"
         },
+
+
         {
-            title: "U.A.E  Embassy  ",
+            title: "Cure Ethiopia",
             category: "Infrastructure",
-            location: "Bahir Dar",
-            year: "2023",
-            description: "State-of-the-art water treatment and distribution system serving over 500,000 residents with clean, safe water.",
-            image: "/images/projects/U.A.EEmbassy/1.jpg",
+            location: "Addis Ababa",
+            year: "2024",
+            description: "Design and construction of a modern bridge system connecting key metropolitan areas, improving traffic flow and urban connectivity.",
+            image: "/images/projects/cure/cure1.jpg",
             images: [
-                "/images/projects/U.A.EEmbassy/1.jpg",
-                "/images/projects/U.A.EEmbassy/2.jpg",
-                "/images/projects/U.A.EEmbassy/3.jpg",
-                "/images/projects/U.A.EEmbassy/4.jpg",
-                "/images/projects/U.A.EEmbassy/5.jpg",
-                "/images/projects/U.A.EEmbassy/6.jpg",
-                "/images/projects/U.A.EEmbassy/7.jpg",
-                "/images/projects/U.A.EEmbassy/8.jpg",
-                "/images/projects/U.A.EEmbassy/9.jpg",
-                "/images/projects/U.A.EEmbassy/10.jpg",
-                "/images/projects/U.A.EEmbassy/11.jpg",
-                "/images/projects/U.A.EEmbassy/12.jpg",
-                "/images/projects/U.A.EEmbassy/13.jpg",
-                "/images/projects/U.A.EEmbassy/14.jpg",
-                "/images/projects/U.A.EEmbassy/15.jpg",
-                "/images/projects/U.A.EEmbassy/16.jpg",
-                "/images/projects/U.A.EEmbassy/17.jpg",
-                "/images/projects/U.A.EEmbassy/18.jpg",
-                "/images/projects/U.A.EEmbassy/19.jpg",
+                "/images/projects/cure/cure1.jpg",
+                "/images/projects/cure/cure2.jpg",
 
 
             ],
             status: "Completed"
         },
+       
+      
+     
     ];
 
     // useEffect(() => {

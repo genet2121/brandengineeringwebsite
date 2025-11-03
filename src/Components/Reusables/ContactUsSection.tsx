@@ -110,7 +110,7 @@ const ContactUsSection = () => {
                     </div>
                     <div>
                       <p className="text-sm text-gray-400 mb-1">Email Us</p>
-                      <a href="mailto:info@company.com" className="text-lg font-semibold hover:underline">info@company.com</a>
+                        <a href="mailto:info@company.com" className="text-lg font-semibold hover:underline">info@brandengineeringplc.com</a>
                     </div>
                   </div>
 

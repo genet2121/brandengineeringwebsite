@@ -85,8 +85,7 @@ function FooterComponent() {
             <div className="lg:col-span-2">
               <h2 className="font-bold text-xl mb-4 text-yellow-500">Who Are We?</h2>
               <p className="text-sm text-white leading-relaxed">
-
-                The ambitious elector-mechanical and infrastructure engineering needs of construction enterprises can be met with our assistance at BRAND ENGINEERING since we have the technical prowess and organizational effectiveness you need.
+                MEP One-Stop Solution—Design, Supply, and Installation, All Under One Roof. approach to Mechanical, Electrical, and Plumbing (MEP) systems—from concept design to material supply and on-site installation. all coordinated seamlessly under one.
               </p>
             </div>
 
@@ -112,7 +111,7 @@ function FooterComponent() {
               <p className="flex items-center gap-2 text-sm text-white mt-3">
                 <Email fontSize="small" />
                 <a href="mailto:isaiasyt@ipspcenter.org" className="hover:text-blue-300 hover:underline">
-                  feker.b@brandengineeringplc.com
+                 info@brandengineeringplc.com
                 </a>
               </p>
             </div>
@@ -130,7 +129,7 @@ function FooterComponent() {
 
           {/* Bottom Section */}
           <div className="border-t border-gray-700 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between text-sm text-white" >
-            <a href="https://brandengineering.org/" className="text-yellow-500 font-semibold hover:underline" target="blank"> brandengineering.org</a>
+            <a href="https://brandengineering.org/" className="text-yellow-500 font-semibold hover:underline" target="blank"> </a>
             <p> <sup>&copy;</sup> {new Date().getFullYear()}</p>
           </div>
         </footer>

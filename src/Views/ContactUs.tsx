@@ -62,7 +62,7 @@ const ContactUs = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="text-orange-500" />
-                <span>feker.b@brandengineeringplc.com</span>
+                <span>info@brandengineeringplc.com</span>
               </div>
             </div>
 
