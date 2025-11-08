@@ -77,7 +77,7 @@ const Navigation = ({ isSticky }: { isSticky: boolean }) => {
           position: "relative"
         })}
     >
-      <div className="container mx-auto px-6 md:px-18 py-3">
+      <div className="container mx-auto px-6 md:px-18 py-1">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2 hover:cursor-pointer" onClick={() => navigate("/")}>

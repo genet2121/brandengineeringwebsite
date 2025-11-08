@@ -154,7 +154,7 @@ const slides = [
             "Kefita Appartment",
     },
     {
-        image: "/images/HeroSection/2.png",
+        image: "/images/HeroSection/2-1.png",
         title: "Brand Engineering ",
         title2: "MEP One-Stop Solution",
         description:
@@ -168,7 +168,7 @@ const slides = [
             "SGDM office complex",
     },
     {
-        image: "/images/HeroSection/4.png",
+        image: "/images/HeroSection/4-1.png",
         title: "Brand Engineering ",
         title2: "MEP One-Stop Solution",
         description:
@@ -192,7 +192,7 @@ const slides = [
     },
 
     {
-        image: "/images/HeroSection/7.png",
+        image: "/images/HeroSection/7-1.png",
         title: "Brand Engineering ",
         title2: "MEP One-Stop Solution",
         description:
@@ -206,7 +206,7 @@ const slides = [
         description:
             "Cure Ethiopia",
     },
-   
+
 ];
 
 

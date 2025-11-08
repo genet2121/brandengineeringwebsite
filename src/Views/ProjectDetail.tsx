@@ -674,21 +674,6 @@ function ProjectDetail() {
             results: "The bridge was completed 2 months ahead of schedule, reducing commute times by 40% and improving traffic flow significantly. The project received recognition for its innovative construction methods and minimal environmental impact."
         },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     ];
 
     useEffect(() => {

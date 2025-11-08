@@ -63,7 +63,7 @@ function ProjectsPage() {
     // Auto-play carousel effect for all visible projects
     useEffect(() => {
         const intervals: NodeJS.Timeout[] = [];
-        
+
         projects.slice(0, visibleProjects).forEach((project, index) => {
             const images = project.images || [project.image];
             if (images.length > 1 && !isHovering[index]) {
@@ -76,7 +76,7 @@ function ProjectsPage() {
                 intervals.push(interval);
             }
         });
-        
+
         return () => {
             intervals.forEach(interval => clearInterval(interval));
         };
@@ -519,29 +519,7 @@ function ProjectsPage() {
             status: "Completed"
         },
 
-        {
-            title: "Defense Hosing Apartment",
-            category: "Energy",
-            location: "Hawassa",
-            year: "2023",
-            description: "Development of a sustainable power generation facility with advanced energy management systems and renewable integration.",
-            image: "/images/projects/defense/1.jpg",
-            images: [
-                "/images/projects/defense/1.jpg",
-                "/images/projects/defense/2.png",
-                "/images/projects/defense/3.png",
 
-            ],
-            status: "Completed",
-            fullDescription: "A comprehensive power generation facility designed to provide reliable electricity to the industrial zone while incorporating renewable energy sources. The plant features advanced energy management systems and smart grid technology.",
-            client: "Ethiopian Electric Power",
-            duration: "36 months",
-            budget: "$120 Million",
-            team: "200+ Specialists",
-            challenges: "Integration of renewable energy sources with traditional power generation, ensuring grid stability, and meeting strict environmental regulations.",
-            solutions: "Implemented hybrid power generation system with intelligent load balancing, installed advanced monitoring systems, and utilized eco-friendly technologies throughout the facility.",
-            results: "Successfully generating 150MW of power with 30% from renewable sources, serving over 500 industrial clients with 99.8% uptime reliability."
-        },
 
         {
             title: "Ethiopian Insurance Corporation",
@@ -575,9 +553,9 @@ function ProjectsPage() {
             ],
             status: "Completed"
         },
-       
-      
-     
+
+
+
     ];
 
     // useEffect(() => {
@@ -646,7 +624,7 @@ function ProjectsPage() {
                     {projects.slice(0, visibleProjects).map((project, index) => {
                         const currentIndex = currentImageIndex[index] || 0;
                         const images = project.images || [project.image];
-                        
+
                         const handlePrevImage = (e: React.MouseEvent) => {
                             e.stopPropagation();
                             setCurrentImageIndex(prev => ({
@@ -678,7 +656,7 @@ function ProjectsPage() {
                                         alt={`${project.title} - Image ${currentIndex + 1}`}
                                         className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
                                     />
-                                    
+
                                     {/* Carousel Navigation - Only show if multiple images */}
                                     {images.length > 1 && (
                                         <>
@@ -712,11 +690,10 @@ function ProjectsPage() {
                                                                 [index]: imgIndex
                                                             }));
                                                         }}
-                                                        className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                                                            imgIndex === currentIndex 
-                                                                ? 'bg-white w-6' 
+                                                        className={`w-2 h-2 rounded-full transition-all duration-300 ${imgIndex === currentIndex
+                                                                ? 'bg-white w-6'
                                                                 : 'bg-white/50 hover:bg-white/75'
-                                                        }`}
+                                                            }`}
                                                         aria-label={`Go to image ${imgIndex + 1}`}
                                                     />
                                                 ))}
