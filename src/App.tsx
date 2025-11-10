@@ -1,6 +1,6 @@
 import React, { createContext, useEffect, useRef, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import { HelmetProvider } from 'react-helmet-async';
 
 import AlertContext from "./Contexts/AlertContext";
 import Alert from "./Components/Extra/Alert";
@@ -116,31 +116,33 @@ function App(params: any) {
 
 
     return (
-        <ZThemeContext.Provider value={{ theme, setTheme: changeTheme, setUiSettings, uiSettings }}>
-            <AlertContext.Provider value={{ showAlert, alertType, setAlertType, setAlert, setWaiting, showWaiting, menu, setMenu }}>
+        <HelmetProvider>
+            <ZThemeContext.Provider value={{ theme, setTheme: changeTheme, setUiSettings, uiSettings }}>
+                <AlertContext.Provider value={{ showAlert, alertType, setAlertType, setAlert, setWaiting, showWaiting, menu, setMenu }}>
 
-                <BrowserRouter>
-                    <Routes>
-                        {/* <Route path="/home" element={<HeroSection />}></Route> */}
-                        <Route path="/" element={<MainScreen />} >
-                            <Route path="" element={<HomePage />} />
-                            <Route path="about_us" element={<AboutUs />} />
-                            <Route path="projects" element={<ProjectsPage />} />
-                            <Route path="project/:id" element={<ProjectDetail />} />
-                            <Route path="contact_us" element={<ContactUs />} />
-                            <Route path="services" element={<ServicePage />} />
-                            <Route path="departments" element={<OrganizationPage />} />
-                            <Route path="teams" element={<Teams />} />
-                            
-                        </Route>
-                    </Routes>
-                    {showAlert ? (<Alert message={alertMessage} color={alertType} />) : ""}
-                    {showWaiting ? (<Waiting />) : ""}
-                    {(uiSettings) ? (<UISettings />) : ""}
-                </BrowserRouter>
+                    <BrowserRouter>
+                        <Routes>
+                            {/* <Route path="/home" element={<HeroSection />}></Route> */}
+                            <Route path="/" element={<MainScreen />} >
+                                <Route path="" element={<HomePage />} />
+                                <Route path="about_us" element={<AboutUs />} />
+                                <Route path="projects" element={<ProjectsPage />} />
+                                <Route path="project/:id" element={<ProjectDetail />} />
+                                <Route path="contact_us" element={<ContactUs />} />
+                                <Route path="services" element={<ServicePage />} />
+                                <Route path="departments" element={<OrganizationPage />} />
+                                <Route path="teams" element={<Teams />} />
+                                
+                            </Route>
+                        </Routes>
+                        {showAlert ? (<Alert message={alertMessage} color={alertType} />) : ""}
+                        {showWaiting ? (<Waiting />) : ""}
+                        {(uiSettings) ? (<UISettings />) : ""}
+                    </BrowserRouter>
 
-            </AlertContext.Provider>
-        </ZThemeContext.Provider>
+                </AlertContext.Provider>
+            </ZThemeContext.Provider>
+        </HelmetProvider>
     );
 
 }

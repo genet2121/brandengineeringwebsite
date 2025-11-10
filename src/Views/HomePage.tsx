@@ -15,6 +15,9 @@ import ProjectsSection from "../Components/Reusables/ProjectsSection";
 import ContactUsSection from "../Components/Reusables/ContactUsSection";
 import Marquee from "react-fast-marquee";
 import CompanyComponent from "../Components/Reusables/CompanyComponent";
+import SEO from "../Components/SEO";
+import { isMobile } from "react-device-detect";
+import { title } from "process";
 
 const companies = [
     {
@@ -148,6 +151,7 @@ const companies = [
 const slides = [
     {
         image: "/images/HeroSection/1.png",
+        imageMobile: "/images/HeroSection/mobile/1.png",
         title: "Brand Engineering ",
         title2: "MEP One-Stop Solution",
         description:
@@ -155,6 +159,7 @@ const slides = [
     },
     {
         image: "/images/HeroSection/2-1.png",
+        imageMobile: "/images/HeroSection/mobile/2.png",
         title: "Brand Engineering ",
         title2: "MEP One-Stop Solution",
         description:
@@ -162,6 +167,7 @@ const slides = [
     },
     {
         image: "/images/HeroSection/3.png",
+        imageMobile: "/images/HeroSection/mobile/3.png",
         title: "Brand Engineering ",
         title2: "MEP One-Stop Solution",
         description:
@@ -169,6 +175,7 @@ const slides = [
     },
     {
         image: "/images/HeroSection/4-1.png",
+        imageMobile: "/images/HeroSection/mobile/4.png",
         title: "Brand Engineering ",
         title2: "MEP One-Stop Solution",
         description:
@@ -177,6 +184,7 @@ const slides = [
 
     {
         image: "/images/HeroSection/5.png",
+        imageMobile: "/images/HeroSection/mobile/5.png",
         title: "Brand Engineering ",
         title2: "MEP One-Stop Solution",
         description:
@@ -185,6 +193,7 @@ const slides = [
 
     {
         image: "/images/HeroSection/6.png",
+        imageMobile: "/images/HeroSection/mobile/6.png",
         title: "Brand Engineering ",
         title2: "MEP One-Stop Solution",
         description:
@@ -193,6 +202,7 @@ const slides = [
 
     {
         image: "/images/HeroSection/7-1.png",
+        imageMobile: "/images/HeroSection/mobile/7.png",
         title: "Brand Engineering ",
         title2: "MEP One-Stop Solution",
         description:
@@ -201,6 +211,7 @@ const slides = [
 
     {
         image: "/images/HeroSection/8.png",
+        imageMobile: "/images/HeroSection/mobile/8.png",
         title: "Brand Engineering ",
         title2: "MEP One-Stop Solution",
         description:
@@ -251,6 +262,12 @@ function HomePage() {
 
     return (
         <div className="w-full">
+            <SEO
+                title="Brand Engineering - Professional Brand Strategy & Design Services"
+                description="Leading provider of brand strategy, design, and implementation services. We help businesses build strong, recognizable brands that drive growth."
+                keywords="brand engineering, brand strategy, brand design, brand implementation, branding services, corporate branding"
+                canonical="/"
+            />
             {/* Background Image - Only Screen Height */}
             {/* <div
                 id="hero_image_anm"
@@ -281,7 +298,7 @@ function HomePage() {
                     left: 0,
                     width: "100%",
                     height: "90vh",
-                    backgroundImage: `url(${currentSlide.image})`,
+                    backgroundImage: `url(${isMobile ? currentSlide.imageMobile : currentSlide.image})`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",

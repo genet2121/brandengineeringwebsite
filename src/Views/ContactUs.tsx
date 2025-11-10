@@ -3,6 +3,7 @@ import { Mail, Phone, LocationOn } from "@mui/icons-material";
 import React from "react";
 import ContactUsSection from "../Components/Reusables/ContactUsSection";
 import VerticalGap from "../Components/Reusables/VerticalGap";
+import SEO from "../Components/SEO";
 
 const ContactUs = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -18,6 +19,12 @@ const ContactUs = () => {
 
   return (
     <>
+      <SEO 
+        title="Contact Us - Brand Engineering | Get in Touch"
+        description="Contact Brand Engineering for professional brand strategy and design services. Reach out to our team for consultations and inquiries."
+        keywords="contact brand engineering, brand consultation, get in touch, brand strategy inquiry"
+        canonical="/contact_us"
+      />
       {/* Header Section */}
       <section
         className="relative py-24 text-center overflow-hidden shadow-md"

@@ -1,8 +1,25 @@
 {
-  "short_name": "Mirac App",
-  "name": "Mirac web App",
-  "start_url": ".",
+  "short_name": "Brand Engineering",
+  "name": "Brand Engineering - Professional Brand Strategy & Design",
+  "description": "Leading provider of brand strategy, design, and implementation services",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#FFD800",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/images/bgtras.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/bgtras.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "design", "branding"],
+  "orientation": "portrait-primary"
 }

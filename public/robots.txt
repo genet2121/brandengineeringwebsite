@@ -1,3 +1,11 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://brandengineeringplc.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10

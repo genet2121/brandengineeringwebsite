@@ -9,6 +9,7 @@ import TeamSection from "../Components/Reusables/TeamSection";
 import WhatWeDo from "../Components/Reusables/WhatWeDo";
 import AdminAPI from "../APIs/AdminAPI";
 import { useNavigate } from "react-router-dom";
+import SEO from "../Components/SEO";
 
 
 
@@ -18,27 +19,7 @@ function AboutUs() {
   const [services, setServices] = useState<any>([]);
   const navigate = useNavigate();
 
-  const generateStructuredData = () => ({
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "M.I.R.A.C.",
-    "url": "http://mirac.et/",
-    "logo": "https://mirac.et/images/mirac_logo.png",
-    "description":
-      "M.I.R.A.C. is a medical recruitment agency dedicated to connecting healthcare providers with exceptional talent.",
-    "address": {
-      "@type": "PostalAddress",
-      "addressCountry": { "@type": "Country", "name": "Ethiopia" },
-      "addressLocality": "Addis Ababa",
-    },
-    "sameAs": [
-      "https://www.facebook.com/miracethiopia?mibextid=ZbWKwL",
-      "https://twitter.com/",
-      "https://www.linkedin.com/company/yourcompany",
-    ],
-    "foundingDate": "2022-01-01",
-    "founders": [{ "@type": "Person", "name": "Dr Dawit Eshetu" }],
-  });
+ 
   const teams = [
     {
       name: "Isaias Tesfalidet",
@@ -93,17 +74,20 @@ function AboutUs() {
 
     fetchservices();
   }, []);
-  const structuredData = generateStructuredData();
+ 
 
   return (
     <>
+      <SEO 
+        title="About Us - Brand Engineering | Our Story & Mission"
+        description="Learn about Brand Engineering's mission to deliver exceptional brand strategy and design services. Discover our team, values, and commitment to excellence."
+        keywords="about brand engineering, our mission, brand strategy team, design experts, company values"
+        canonical="/about_us"
+      />
 
       <div className="relative z-10">
-        {structuredData && (
-          <script
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-          />
-        )}
+     
+      
 
         {/* Hero Section */}
         <section className="relative py-24 text-center overflow-hidden shadow-md" style={{

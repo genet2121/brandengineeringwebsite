@@ -13,6 +13,7 @@ import { useNavigate } from "react-router-dom";
 import ProjectsSection from "../Components/Reusables/ProjectsSection";
 import { MapPin, Calendar, ArrowUpRight, ChevronLeft, ChevronRight } from "lucide-react";
 import AnimationContext from "../Contexts/AnimationContext";
+import SEO from "../Components/SEO";
 
 
 
@@ -26,27 +27,7 @@ function ProjectsPage() {
     const [currentImageIndex, setCurrentImageIndex] = useState<{ [key: number]: number }>({});
     const [isHovering, setIsHovering] = useState<{ [key: number]: boolean }>({});
 
-    const generateStructuredData = () => ({
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "M.I.R.A.C.",
-        "url": "http://mirac.et/",
-        "logo": "https://mirac.et/images/mirac_logo.png",
-        "description":
-            "M.I.R.A.C. is a medical recruitment agency dedicated to connecting healthcare providers with exceptional talent.",
-        "address": {
-            "@type": "PostalAddress",
-            "addressCountry": { "@type": "Country", "name": "Ethiopia" },
-            "addressLocality": "Addis Ababa",
-        },
-        "sameAs": [
-            "https://www.facebook.com/miracethiopia?mibextid=ZbWKwL",
-            "https://twitter.com/",
-            "https://www.linkedin.com/company/yourcompany",
-        ],
-        "foundingDate": "2022-01-01",
-        "founders": [{ "@type": "Person", "name": "Dr Dawit Eshetu" }],
-    });
+   
 
     const { getScrollState, setScrollAction } = useContext(AnimationContext);
 
@@ -576,6 +557,12 @@ function ProjectsPage() {
 
     return (
         <div className="relative z-10">
+            <SEO 
+                title="Our Projects - Brand Engineering | Portfolio & Case Studies"
+                description="Explore Brand Engineering's portfolio of successful branding projects. View our case studies and see how we've helped businesses transform their brands."
+                keywords="brand engineering projects, branding portfolio, case studies, brand transformation, successful branding"
+                canonical="/projects"
+            />
             {/* {structuredData && (
                 <script
                     type="application/ld+json"

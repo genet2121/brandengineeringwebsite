@@ -1,9 +1,16 @@
 import React from "react";
 import ServiceComponentPage from "../Components/Reusables/serviceCom";
+import SEO from "../Components/SEO";
 
 const servicePage = () => {
     return (
         <div>
+            <SEO 
+                title="Our Services - Brand Engineering | Professional Branding Solutions"
+                description="Explore Brand Engineering's comprehensive services including brand strategy, design, implementation, and consulting. Transform your business with our expert solutions."
+                keywords="branding services, brand strategy, brand design, brand consulting, corporate identity, brand implementation"
+                canonical="/services"
+            />
             <section className="relative py-24 text-center overflow-hidden shadow-md" style={{
                 background: `linear-gradient(135deg, var(--button_color) 0%, color-mix(in srgb, var(--button_color) 80%, black) 50%, color-mix(in srgb, var(--button_color) 60%, black) 100%)`
             }}>

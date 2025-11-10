@@ -6,6 +6,7 @@ import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import ZThemeContext from "../Contexts/ZThemeContext";
 import "./nav_style.css";
 import { useNavigate, useLocation } from "react-router-dom";
+import { isMobile } from "react-device-detect";
 
 const Navigation = ({ isSticky }: { isSticky: boolean }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +16,7 @@ const Navigation = ({ isSticky }: { isSticky: boolean }) => {
 
   // Check if we're on the home page
   const isHomePage = location.pathname === "/";
-  
+
 
   // For non-home pages, always use sticky style
   const shouldUseWhiteNav = !isHomePage || isSticky;
@@ -25,9 +26,9 @@ const Navigation = ({ isSticky }: { isSticky: boolean }) => {
     { name: "Team", path: "/teams" },
     { name: "Services", path: "/services" },
     { name: "About", path: "/about_us" },
-   
-    
-  
+
+
+
     // { name: "Departments", path: "/departments" },
 
     // { name: "Blog", path: "/blog" },
@@ -85,7 +86,7 @@ const Navigation = ({ isSticky }: { isSticky: boolean }) => {
               src={shouldUseWhiteNav ? "/images/bgtras.png" : "/images/b.png"}
               alt="Kacha Logo"
               className="rounded-md"
-              style={{ width: "250px" }}
+              style={{ width: isMobile ? "170px" : "250px" }}
             />
             {/* <img
               src="/images/Group.png"
@@ -104,7 +105,7 @@ const Navigation = ({ isSticky }: { isSticky: boolean }) => {
                   key={item.name}
                   onClick={() => handleNavClick(item.path)}
                   className={`relative font-medium group cursor-pointer transition-colors duration-200 ${isActive
-                    ? "text-yellow-500" 
+                    ? "text-yellow-500"
                     : shouldUseWhiteNav
                       ? "text-black hover:text-yellow-500"
                       : "text-white hover:text-yellow-400"
@@ -176,13 +177,13 @@ const Navigation = ({ isSticky }: { isSticky: boolean }) => {
       {isOpen && (
         <div className="md:hidden bg-white shadow-md px-6 py-4 space-y-4">
           {navItems.map((item) => (
-           
+
             <div
               key={item.name}
               onClick={() => handleNavClick(item.path)}
               className={`font-medium transition-colors duration-200 cursor-pointer ${location.pathname === item.path
-                  ? "text-yellow-500"
-                  : "text-gray-800 hover:text-yellow-500"
+                ? "text-yellow-500"
+                : "text-gray-800 hover:text-yellow-500"
                 }`}
             >
               {item.name}
